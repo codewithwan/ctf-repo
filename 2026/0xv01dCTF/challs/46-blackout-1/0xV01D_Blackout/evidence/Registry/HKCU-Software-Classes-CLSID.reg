@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{8b70-void}\InprocServer32]
+@="C:\\ProgramData\\NVIDIA Corporation\\nvtelemetry\\svch0st.exe"
+"ThreadingModel"="2fd4c0b88e7153164ac09e77f1a2b3c4"
+"LastSeenSession"="7f4d9b2c-a9e1-4a71-bd44-70b2f4d0c661"

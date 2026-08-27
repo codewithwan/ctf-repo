@@ -1,0 +1,386 @@
+[
+  {
+    "token_id": 5084,
+    "allowed": false
+  },
+  {
+    "token_id": 5059,
+    "allowed": false
+  },
+  {
+    "token_id": 5062,
+    "allowed": true
+  },
+  {
+    "token_id": 5009,
+    "allowed": true
+  },
+  {
+    "token_id": 5033,
+    "allowed": false
+  },
+  {
+    "token_id": 5026,
+    "allowed": false
+  },
+  {
+    "token_id": 5001,
+    "allowed": false
+  },
+  {
+    "token_id": 5068,
+    "allowed": false
+  },
+  {
+    "token_id": 5015,
+    "allowed": false
+  },
+  {
+    "token_id": 5060,
+    "allowed": true
+  },
+  {
+    "token_id": 5063,
+    "allowed": true
+  },
+  {
+    "token_id": 5010,
+    "allowed": true
+  },
+  {
+    "token_id": 5052,
+    "allowed": true
+  },
+  {
+    "token_id": 5074,
+    "allowed": false
+  },
+  {
+    "token_id": 5051,
+    "allowed": false
+  },
+  {
+    "token_id": 5089,
+    "allowed": false
+  },
+  {
+    "token_id": 5049,
+    "allowed": false
+  },
+  {
+    "token_id": 5041,
+    "allowed": true
+  },
+  {
+    "token_id": 5065,
+    "allowed": false
+  },
+  {
+    "token_id": 5030,
+    "allowed": true
+  },
+  {
+    "token_id": 5055,
+    "allowed": false
+  },
+  {
+    "token_id": 5072,
+    "allowed": true
+  },
+  {
+    "token_id": 5045,
+    "allowed": true
+  },
+  {
+    "token_id": 5032,
+    "allowed": false
+  },
+  {
+    "token_id": 5080,
+    "allowed": false
+  },
+  {
+    "token_id": 5067,
+    "allowed": true
+  },
+  {
+    "token_id": 5091,
+    "allowed": true
+  },
+  {
+    "token_id": 5008,
+    "allowed": false
+  },
+  {
+    "token_id": 5037,
+    "allowed": true
+  },
+  {
+    "token_id": 5076,
+    "allowed": true
+  },
+  {
+    "token_id": 5079,
+    "allowed": true
+  },
+  {
+    "token_id": 5047,
+    "allowed": true
+  },
+  {
+    "token_id": 5044,
+    "allowed": false
+  },
+  {
+    "token_id": 5042,
+    "allowed": true
+  },
+  {
+    "token_id": 5094,
+    "allowed": true
+  },
+  {
+    "token_id": 5050,
+    "allowed": false
+  },
+  {
+    "token_id": 5082,
+    "allowed": true
+  },
+  {
+    "token_id": 5012,
+    "allowed": false
+  },
+  {
+    "token_id": 5036,
+    "allowed": false
+  },
+  {
+    "token_id": 5023,
+    "allowed": true
+  },
+  {
+    "token_id": 5039,
+    "allowed": false
+  },
+  {
+    "token_id": 5040,
+    "allowed": true
+  },
+  {
+    "token_id": 5018,
+    "allowed": true
+  },
+  {
+    "token_id": 5077,
+    "allowed": false
+  },
+  {
+    "token_id": 5070,
+    "allowed": false
+  },
+  {
+    "token_id": 5056,
+    "allowed": true
+  },
+  {
+    "token_id": 5007,
+    "allowed": false
+  },
+  {
+    "token_id": 5034,
+    "allowed": false
+  },
+  {
+    "token_id": 5078,
+    "allowed": false
+  },
+  {
+    "token_id": 5046,
+    "allowed": true
+  },
+  {
+    "token_id": 5002,
+    "allowed": true
+  },
+  {
+    "token_id": 5016,
+    "allowed": true
+  },
+  {
+    "token_id": 5038,
+    "allowed": true
+  },
+  {
+    "token_id": 5066,
+    "allowed": false
+  },
+  {
+    "token_id": 5022,
+    "allowed": true
+  },
+  {
+    "token_id": 5058,
+    "allowed": true
+  },
+  {
+    "token_id": 5024,
+    "allowed": false
+  },
+  {
+    "token_id": 5005,
+    "allowed": true
+  },
+  {
+    "token_id": 5006,
+    "allowed": true
+  },
+  {
+    "token_id": 5021,
+    "allowed": false
+  },
+  {
+    "token_id": 5048,
+    "allowed": false
+  },
+  {
+    "token_id": 5061,
+    "allowed": false
+  },
+  {
+    "token_id": 5088,
+    "allowed": true
+  },
+  {
+    "token_id": 5019,
+    "allowed": false
+  },
+  {
+    "token_id": 5073,
+    "allowed": false
+  },
+  {
+    "token_id": 5043,
+    "allowed": true
+  },
+  {
+    "token_id": 5083,
+    "allowed": true
+  },
+  {
+    "token_id": 5020,
+    "allowed": false
+  },
+  {
+    "token_id": 5000,
+    "allowed": true
+  },
+  {
+    "token_id": 5092,
+    "allowed": false
+  },
+  {
+    "token_id": 5057,
+    "allowed": false
+  },
+  {
+    "token_id": 5090,
+    "allowed": true
+  },
+  {
+    "token_id": 5053,
+    "allowed": false
+  },
+  {
+    "token_id": 5087,
+    "allowed": true
+  },
+  {
+    "token_id": 5025,
+    "allowed": true
+  },
+  {
+    "token_id": 5071,
+    "allowed": true
+  },
+  {
+    "token_id": 5095,
+    "allowed": false
+  },
+  {
+    "token_id": 5064,
+    "allowed": true
+  },
+  {
+    "token_id": 5029,
+    "allowed": false
+  },
+  {
+    "token_id": 5027,
+    "allowed": false
+  },
+  {
+    "token_id": 5085,
+    "allowed": false
+  },
+  {
+    "token_id": 5093,
+    "allowed": true
+  },
+  {
+    "token_id": 5004,
+    "allowed": true
+  },
+  {
+    "token_id": 5054,
+    "allowed": true
+  },
+  {
+    "token_id": 5075,
+    "allowed": false
+  },
+  {
+    "token_id": 5011,
+    "allowed": false
+  },
+  {
+    "token_id": 5069,
+    "allowed": true
+  },
+  {
+    "token_id": 5086,
+    "allowed": true
+  },
+  {
+    "token_id": 5013,
+    "allowed": false
+  },
+  {
+    "token_id": 5017,
+    "allowed": true
+  },
+  {
+    "token_id": 5028,
+    "allowed": true
+  },
+  {
+    "token_id": 5031,
+    "allowed": true
+  },
+  {
+    "token_id": 5035,
+    "allowed": true
+  },
+  {
+    "token_id": 5003,
+    "allowed": true
+  },
+  {
+    "token_id": 5014,
+    "allowed": false
+  },
+  {
+    "token_id": 5081,
+    "allowed": true
+  }
+]

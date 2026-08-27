@@ -1,0 +1,748 @@
+[
+  {
+    "id": 4,
+    "slug": "chip",
+    "title": "chip",
+    "tags": {
+      "categories": "misc",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 300,
+    "solve_count": 55,
+    "solved_by_me": false,
+    "detail": {
+      "id": 4,
+      "slug": "chip",
+      "title": "chip",
+      "description": "We've measured some electrical signals from one of cybervillain Zoowee\nBlubberworth's designs. The chip's markings were sanded off but we can tell\nthat it's still pretty new and possibly has valuable data on it. \nCan you figure out what chip it is?\n\nFlag format is `bushbash{<manufacturer-name>, <chip-name>}`\n\nAll text should be lowercase. Do not include chip packaging information, for example if the manufacturer is bingus and the\nname of the chip is `ABC12W3R4-TR`, only include the chip name (`ABC12W3R4`) and\nthe flag would be `bushbash{bingus, abc12w3r4}`. Any spaces should be substituted\nwith underscore `_`.\n\n**Author**: Eisverygoodletter",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T07:50:58.802Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "unknown-chip.png",
+            "size": 77433,
+            "hash": "sha256:93821c76f9ba6cd84f962a0297ddbf68cbdcd623efb438247deae11946b126c6",
+            "url": "files/local/Hv4Hor1rEsB8FV4LP1AFi?iat=1785496800&sig=nRklrGQAvZizvS1n1TgwhwKrPdguQ4tXSUqBwEWY4uA",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 5,
+    "slug": "beat-around-the-bush",
+    "title": "Beat Around The Bush",
+    "tags": {
+      "categories": "crypto",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 200,
+    "solve_count": 61,
+    "solved_by_me": false,
+    "detail": {
+      "id": 5,
+      "slug": "beat-around-the-bush",
+      "title": "Beat Around The Bush",
+      "description": "The flag is in the bush, can you find it? The flag format: is `bushbash{<words-separated-by-hyphens>}`\n\n\ud83c\udf33\ud83c\udf32\ud83c\udf34\ud83c\udf35\ud83c\udf84\ud83c\udf3f\u2618\ufe0f\ud83c\udf40\ud83c\udf43\ud83c\udf34\ud83c\udf42\ud83c\udf35\ud83c\udf41\ud83e\udeb4\ud83c\udf34\ud83c\udf35\ud83c\udf31\ud83c\udf34\u2618\ufe0f\ud83c\udf42\ud83c\udf34\ud83c\udf3e\ud83c\udf35\ud83c\udf33\ud83c\udf32\ud83c\udf34\ud83c\udf35\ud83c\udf8b\ud83c\udf8d\ud83e\udeb4\ud83c\udf31\ud83c\udf42\ud83c\udf35\ud83c\udf41\ud83e\udeb4\ud83c\udf34\ud83c\udf35\ud83c\udf42\ud83c\udf8d\u2618\ufe0f\ud83c\udf40\ud83c\udf8d\u2618\ufe0f\ud83c\udf40\ud83e\udeb5\ud83c\udf35\ud83c\udf33\ud83c\udf32\ud83c\udf34\ud83c\udf35\ud83c\udf42\ud83c\udf43\ud83c\udf34\ud83c\udf34\ud83e\udea8\ud83c\udf43\ud83c\udf34\ud83c\udf42\ud83c\udf42\ud83c\udf35\u2618\ufe0f\ud83c\udf8d\ud83c\udf40\ud83c\udf32\ud83c\udf33\ud83c\udf42\ud83c\udf35\ud83e\udeb4\u26f0\ufe0f\ud83c\udf41\ud83e\udeb4\ud83c\udf3e\n\ud83c\udf41\u2618\ufe0f\ud83c\udf31\ud83c\udf35\ud83c\udf33\ud83c\udf32\ud83c\udf34\ud83c\udf35\ud83c\udf43\u26f0\ufe0f\ud83e\udeb4\ud83c\udf8d\ud83c\udfd5\ufe0f\ud83c\udf34\ud83c\udf34\ud83c\udf33\ud83c\udf42\ud83c\udf35\ud83c\udf42\ud83c\udf8d\u2618\ufe0f\ud83c\udf40\ud83e\udeb5\ud83c\udf35\ud83c\udf8b\ud83c\udf3f\ud83c\udf42\ud83c\udf32\ud83c\udf8b\ud83c\udf41\ud83c\udf42\ud83c\udf32\ud83c\udf3a\ud83c\udf42\u26f0\ufe0f\ud83c\udf3b\ud83c\udf3c\ud83c\udf41\u2618\ufe0f\ud83c\udf38\ud83c\udf3b\ud83c\udf33\ud83e\udeb4\ud83c\udf34\ud83c\udf34\ud83c\udf42\ud83c\udf3b\ud83c\udf41\u2618\ufe0f\ud83c\udf31\ud83c\udf3b\ud83c\udfd5\ufe0f\ud83c\udf41\u2618\ufe0f\ud83c\udf40\ud83c\udf41\ud83e\udeb4\u26f0\ufe0f\u26f0\ufe0f\ud83c\udf42\ud83e\udebb\ud83c\udf35\ud83c\udf8d\u2618\ufe0f\ud83c\udf35\ud83c\udf33\ud83c\udf32\ud83c\udf34\ud83c\udf35\ud83c\udf43\ud83c\udf41\u2618\ufe0f\ud83c\udf31\n\ud83c\udf31\u26f0\ufe0f\ud83e\udd8c\u2618\ufe0f\ud83c\udf35\ud83c\udf3f\u2618\ufe0f\ud83c\udf31\ud83c\udf34\ud83e\udeb4\ud83e\udeb5\ud83c\udf35\ud83c\udf84\ud83c\udf3f\ud83c\udf42\ud83c\udf33\ud83c\udf35\ud83c\udf31\u26f0\ufe0f\u2618\ufe0f\ud83e\udd98\ud83c\udf33\ud83c\udf35\ud83c\udf40\ud83c\udf34\ud83c\udf33\ud83c\udf35\ud83c\udf8b\ud83c\udf8d\ud83c\udf33\ud83c\udf33\ud83c\udf34\u2618\ufe0f\ud83c\udf35\ud83c\udf8b\ud83c\udf38\ud83c\udf35\ud83c\udf41\ud83c\udf35\ud83c\udf42\ud83e\udea8\ud83c\udf8d\ud83c\udf31\ud83c\udf34\ud83e\udeb4\ud83e\udeb5\n\n**Author**: Harold Gao",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T11:04:53.512Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": []
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 6,
+    "slug": "xored",
+    "title": "xored",
+    "tags": {
+      "categories": "crypto,theme-cssa",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 200,
+    "solve_count": 154,
+    "solved_by_me": false,
+    "detail": {
+      "id": 6,
+      "slug": "xored",
+      "title": "xored",
+      "description": "Oops! I accidentally corrupted my flag with a simple\nencryption algorithm... I forgot the key though!\n\n**Author**: Harold Gao",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T08:05:11.996Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "xored.zip",
+            "size": 1157,
+            "hash": "sha256:dcc8858989939e9066d1cb9bf721db20975a0abcb92340e9875d8f0c57384458",
+            "url": "files/local/8G0LoPDc2ZIwMdwLfIN0r?iat=1785496800&sig=HReqL9vxMPB-6VTnkFs6xePg6ImPnOH-kVOENW3bVN4",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 7,
+    "slug": "the-cssa-hackerman-i",
+    "title": "The CSSA Hackerman I",
+    "tags": {
+      "categories": "osint",
+      "difficulty": "beginner"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 100,
+    "solve_count": 138,
+    "solved_by_me": false,
+    "detail": {
+      "id": 7,
+      "slug": "the-cssa-hackerman-i",
+      "title": "The CSSA Hackerman I",
+      "description": "![img](https://u.cubeupload.com/oreophone/aba45f2022fa2a4f28ca.jpeg)\n\nThe CSSA Hackerman is on the run! After successfully hacking into the CSSA Mainframe\u2122, the Hackerman is now making a desperate escape from the CSSA Common Room.\n\nSoon, the Hackerman will be dashing through the suburbs of Canberra, and we need your help hunting them down.\n\nThe flag is the coordinates where the Hackerman is standing, to four decimal places. For example, accepted flags would be `bushbash{-35.3081,149.1244}` or `bushbash{-35.3082,149.1244}` if the Hackerman were standing underneath the Australian Parliament House flagpole.\n\n**Authors**: Cameron & Vals",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T08:20:42.982Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "aba45f2022fa2a4f28ca87b2cf1a1436.JPEG",
+            "size": 36865,
+            "hash": "sha256:08ef0ddb1add6fbe637d36f9813838bc96d480ec883bac915b05b296548d0bd9",
+            "url": "files/local/5Wjnkc1da7q-Lk1LL2bUK?iat=1785496800&sig=10rr_UN_Cp88Fvs6BSdJCIJg34vzDPXu1KzVqcMrQEo",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 9,
+    "slug": "the-cssa-hackerman-ii",
+    "title": "The CSSA Hackerman II",
+    "tags": {
+      "categories": "osint",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": 7,
+    "value": 229,
+    "solve_count": 58,
+    "solved_by_me": false,
+    "detail": null,
+    "detail_error": {
+      "error": "ChainedNotCompleted",
+      "message": "Please solve \"The CSSA Hackerman I\" to view this chained challenge."
+    }
+  },
+  {
+    "id": 10,
+    "slug": "the-cssa-hackerman-iii",
+    "title": "The CSSA Hackerman III",
+    "tags": {
+      "categories": "osint",
+      "difficulty": "hard"
+    },
+    "hidden": false,
+    "chained_after": 9,
+    "value": 400,
+    "solve_count": 2,
+    "solved_by_me": false,
+    "detail": null,
+    "detail_error": {
+      "error": "ChainedNotCompleted",
+      "message": "Please solve \"The CSSA Hackerman II\" to view this chained challenge."
+    }
+  },
+  {
+    "id": 11,
+    "slug": "spiritual-interception",
+    "title": "Spiritual Interception",
+    "tags": {
+      "categories": "misc",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 100,
+    "solve_count": 130,
+    "solved_by_me": false,
+    "detail": {
+      "id": 11,
+      "slug": "spiritual-interception",
+      "title": "Spiritual Interception",
+      "description": "We've received an odd transmission that appears to be largely made of noise. However, we think there may be more to this audio than meets the eye...\n\n**Author**: Vals",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T04:53:03.662Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "transmission.wav",
+            "size": 243476,
+            "hash": "sha256:8c2eee5e8fac11e1801d946f8b551c7c418790ccf30ee14575368bdaaa6fd3d1",
+            "url": "files/local/nz4SQHWGSeuHCy3WekXjx?iat=1785496800&sig=YIMuqIds6lz6b9EunzSnYC0jHmESRFqfaQ9a3qcMX7M",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 12,
+    "slug": "the-eye",
+    "title": "The Eye",
+    "tags": {
+      "categories": "osint",
+      "difficulty": "hard"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 500,
+    "solve_count": 14,
+    "solved_by_me": false,
+    "detail": {
+      "id": 12,
+      "slug": "the-eye",
+      "title": "The Eye",
+      "description": "The eye of watches us, as nights go by, \nit gives the people everything they need.\n\nFirst comes she to bless the springs and ponds,\nThen comes she to push the tides of sea.\nThe eldest carries those departed far beyond,\nThe youngest makes our visions come to be.\nNow comes she to create a fertile earth, \nAnother to send a gust of wind or gentle breeze.\nThen comes storms and drizzle she brings forth,\nAnd she who joins the flocks of birds and trees.\n\n**Author**: Harold Gao",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T04:59:59.232Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "the-eye.zip",
+            "size": 1494417,
+            "hash": "sha256:1a972e6afb92c293c741eccea5fe861e8dda31ffbb28e8a86a34a2bb9a29da23",
+            "url": "files/local/rPXMt0-Kme8d_8en1xdHi?iat=1785496800&sig=C_S1-6dyCMj0JJ_vcCHWnv8S5Vp17RwMzuzmH2Z2fsY",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 13,
+    "slug": "hack-the-vault-i",
+    "title": "Hack The Vault I",
+    "tags": {
+      "categories": "rev",
+      "difficulty": "beginner"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 100,
+    "solve_count": 177,
+    "solved_by_me": false,
+    "detail": {
+      "id": 13,
+      "slug": "hack-the-vault-i",
+      "title": "Hack The Vault I",
+      "description": "The jungle holds many secrets, some of them as dark as the night ruled by a laughing moon.\nEver since the Moss Man committed his atrocious acts, the villagers slept with an eye open,\nwhile detective Kane searches for the taunting vaults he left behind. He wants to talk to you,\nhe needs your help: `nc 34.40.133.67 7776`.\n\n**Author**: Harold Gao",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:11:45.162Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "vault",
+            "size": 14560,
+            "hash": "sha256:b2611053363f0e1a66b25cf92d18bcacf3107138e6d5f02e26ccd4fc4b3302a5",
+            "url": "files/local/Mmnkl4FeC1IoCZOjUJTwS?iat=1785496800&sig=b-NHF7vZJe8mT_fDSmDxq1-8cY1rbwOqmbJ5KLCbfgY",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 14,
+    "slug": "hack-the-vault-ii",
+    "title": "Hack The Vault II",
+    "tags": {
+      "categories": "pwn",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": 13,
+    "value": 100,
+    "solve_count": 94,
+    "solved_by_me": false,
+    "detail": null,
+    "detail_error": {
+      "error": "ChainedNotCompleted",
+      "message": "Please solve \"Hack The Vault I\" to view this chained challenge."
+    }
+  },
+  {
+    "id": 15,
+    "slug": "cachebrowns",
+    "title": "cachebrowns",
+    "tags": {
+      "categories": "pwn",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 275,
+    "solve_count": 72,
+    "solved_by_me": false,
+    "detail": {
+      "id": 15,
+      "slug": "cachebrowns",
+      "title": "cachebrowns",
+      "description": "I hate technology, can't even enjoy a delicious golden breakfast at the\ncafeteria without having to connect to the internet. Guess I'll have to\ngo to work hungry, people need to spend more time making sure these stupid\nsoftware actually works.\n\n```\nnc 34.40.133.67 7777\n```\n\n**Author**: Harold Gao",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T07:29:34.987Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "Main.java",
+            "size": 2061,
+            "hash": "sha256:8b8b99e11f1cbb37a59becd9cf0b02067cdec1189b8d94a92654906d2192ae72",
+            "url": "files/local/ilEd72glQmUulY0SMGhWi?iat=1785496800&sig=DsHyS41Ngrb2RjxN_EYq-CbYRtC3i4PyqbcNJfFIioo",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 16,
+    "slug": "strawberries",
+    "title": "strawberries",
+    "tags": {
+      "categories": "crypto",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 333,
+    "solve_count": 67,
+    "solved_by_me": false,
+    "detail": {
+      "id": 16,
+      "slug": "strawberries",
+      "title": "strawberries",
+      "description": "Mmmm, I'm addicted to these juicy strawberries... Too bad I don't have\na premium membership... Can you help me out? \n\n```\nnc 34.40.133.67 6001\n```\n\n**Author**: Harold Gao",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:14:43.942Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "strawberries.zip",
+            "size": 1519,
+            "hash": "sha256:39a6edd3bcaf12b62176b0958e9d8a77893b140d2caf1d49b453ff707f312914",
+            "url": "files/local/bjB5cH42hs3wevZS7MRy4?iat=1785496800&sig=RRPvGfOlzeOiNuYXM4VPvPRJNIQ8mNe03nHcJBHeqZo",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 20,
+    "slug": "langle-rangle-langle-rangle",
+    "title": "\\langle\\rangle\\langle\\rangle",
+    "tags": {
+      "categories": "rev",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 305,
+    "solve_count": 108,
+    "solved_by_me": false,
+    "detail": {
+      "id": 20,
+      "slug": "langle-rangle-langle-rangle",
+      "title": "\\langle\\rangle\\langle\\rangle",
+      "description": "Our agent only sends us messages via weird encodings. He's having some sort\nof c++ obsession right now, so you're going to have to figure out what these\ntemplates mean to get the flag.\n\n**Author**: Eisverygoodletter\n",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T05:49:38.458Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "out.cpp",
+            "size": 190745,
+            "hash": "sha256:b6269c79db664b7f69e48119a0bed8c852aeddb88638b8e2f9015eb0ee834603",
+            "url": "files/local/c0S9E0Qv7VJBlp7MdPFQ5?iat=1785496800&sig=Ir4YT03es_q6byyECntgL7wk4nfqqyFKK0gBFliZxPM",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 21,
+    "slug": "langle-rangle-langle-rangle-langle-rangle-langle-rangle-langle-r",
+    "title": "\\langle\\rangle\\langle\\rangle\\langle\\rangle\\langle\\rangle\\langle\\rangle\\langle\\rangle",
+    "tags": {
+      "categories": "rev",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 323,
+    "solve_count": 84,
+    "solved_by_me": false,
+    "detail": {
+      "id": 21,
+      "slug": "langle-rangle-langle-rangle-langle-rangle-langle-rangle-langle-r",
+      "title": "\\langle\\rangle\\langle\\rangle\\langle\\rangle\\langle\\rangle\\langle\\rangle\\langle\\rangle",
+      "description": "Our inside agent has sent us a coded message again. \n\nThe key is `[10, 21, 99, 4, 534, 24, 63, 57, 102, 38, 0, 123, 53, 674, 12, 57]` and\nthe encrypted message is `[221, 75, 97, 125, 30, 124, 51, 122, 15, 186, 39, 46, 74, 175, 120, 83, 219, 165]`,\nwhatever that means. He forgot to explain the encoding again. We've found a horribly\nobfuscated encryption implementation with lots of templates. I suppose antiviruses don't\npick this up because there's nearly nothing in the compiled program. Can you figure out how the message was encrypted?\n\n**Author**: Eisverygoodletter",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:54:53.703Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": ".zip",
+            "size": 2137,
+            "hash": "sha256:4768f11ee8d913157e8e0e1c5051a57a09bacb8b9b4d468dc62f574a20c4461a",
+            "url": "files/local/RI7xnY5utycWyT1nnIq2R?iat=1785496800&sig=GpWeN_K-8BBmgS2pnch7GFcItozUMM4RwS8r6Wc7M54",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 22,
+    "slug": "signal-haze",
+    "title": "Signal Haze",
+    "tags": {
+      "categories": "misc",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 200,
+    "solve_count": 59,
+    "solved_by_me": false,
+    "detail": {
+      "id": 22,
+      "slug": "signal-haze",
+      "title": "Signal Haze",
+      "description": "We heard you've gotten lost out in the bush again. We're sending a little something to you that may prove useful... However, due to the sensitive nature of this operation we cannot tell you how to extract this information from this transmission. We trust you will be able to figure out out though...\n**Authors**: Vals and oreophone",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:16:16.389Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "data.file",
+            "size": 855595,
+            "hash": "sha256:de038470ff6b07056dab2daba758e18f7406279819345a6f04869c499f2df197",
+            "url": "files/local/qFsMxskzfkqf9XLzUEfgP?iat=1785496800&sig=bust0zpZl0zRVqEdm4iBnKB1E1szPkHwzQUQX_VOTvY",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 23,
+    "slug": "bliss",
+    "title": "Bliss I",
+    "tags": {
+      "categories": "misc",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 142,
+    "solve_count": 22,
+    "solved_by_me": false,
+    "detail": {
+      "id": 23,
+      "slug": "bliss",
+      "title": "Bliss I",
+      "description": "I must say, that is one very strange cloud...\n**Author:** Cameron",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:22:19.675Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "bliss.png",
+            "size": 6990615,
+            "hash": "sha256:8d1eb94e1980b94481732d36bc87f1e02acf1738470b5fc0a67cc47aee7b24fe",
+            "url": "files/local/VJyCMnYvXXDKS7eyIZ-gi?iat=1785496800&sig=s10dmvBbJElYgBqqyCmxEBlHcVJfocFtMmHxUl5DNb0",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 24,
+    "slug": "bliss-ii",
+    "title": "Bliss II",
+    "tags": {
+      "categories": "misc",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": 23,
+    "value": 298,
+    "solve_count": 12,
+    "solved_by_me": false,
+    "detail": null,
+    "detail_error": {
+      "error": "ChainedNotCompleted",
+      "message": "Please solve \"Bliss I\" to view this chained challenge."
+    }
+  },
+  {
+    "id": 25,
+    "slug": "say-the-word-on-beta",
+    "title": "say the word on beta",
+    "tags": {
+      "categories": "misc",
+      "difficulty": "medium"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 300,
+    "solve_count": 12,
+    "solved_by_me": false,
+    "detail": {
+      "id": 25,
+      "slug": "say-the-word-on-beta",
+      "title": "say the word on beta",
+      "description": "can't believe this trend was already 6 or \\[redacted\\] years ago...\n\n![the image in question](https://u.cubeupload.com/oreophone/saythewordonbeta.png)\n\n**Author**: oreophone",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:28:40.200Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "img.png",
+            "size": 161779,
+            "hash": "sha256:13102b36829afb9a9ab9584c5912bb52bca5eaac933436a8e23e206ce534f6ea",
+            "url": "files/local/SmwAdjDRKN6ul3g1k3rLT?iat=1785496800&sig=uvWjTPWc2So8qD7xdwz6p9FDzHfYwGFXuNoGxD79iTo",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 26,
+    "slug": "membership-perks",
+    "title": "membership perks",
+    "tags": {
+      "categories": "crypto",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 200,
+    "solve_count": 5,
+    "solved_by_me": false,
+    "detail": {
+      "id": 26,
+      "slug": "membership-perks",
+      "title": "membership perks",
+      "description": "Can you really say you're part of the CSSA if you don't have a membership card?\n\nConcatenate with hyphens for the flag. All letters should be lowercase.\n\n**Author**: Elliott Price",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T08:09:35.857Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": []
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 27,
+    "slug": "turned-around",
+    "title": "Turned Around",
+    "tags": {
+      "categories": "rev",
+      "difficulty": "hard"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 384,
+    "solve_count": 72,
+    "solved_by_me": false,
+    "detail": {
+      "id": 27,
+      "slug": "turned-around",
+      "title": "Turned Around",
+      "description": "it seems one of our devices has had some odd piece of malware installed on it!\nIn order to fix it we need access to root which has had its password changed...\nWe believe the hacker may have left the password within this code somewhere-\n\nFlag format is `bushbash{password}`\n\n**Author**: Vals",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T06:34:06.455Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": [
+          {
+            "filename": "turnedaround.bf",
+            "size": 10034,
+            "hash": "sha256:c76f8f564685b273a3a2bc33e6f0891f9b903884fe2537bdebbab2f46dff4d19",
+            "url": "files/local/fUhHSRbPMzFoDtBtnNP6-?iat=1785496800&sig=e1kLYWcW8J-_njfSzQyJaCvo0adclIb4Ar1ppsu4FPY",
+            "is_attachment": true
+          }
+        ]
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 28,
+    "slug": "password",
+    "title": "password",
+    "tags": {
+      "categories": "rev",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 205,
+    "solve_count": 84,
+    "solved_by_me": false,
+    "detail": {
+      "id": 28,
+      "slug": "password",
+      "title": "password",
+      "description": "We've recovered a device with a usb port. We know the username is `admin` and the password is `password`, but we just can't log in. The info we received was a cobbled mess, maybe something's missing?\n\nConnect to `nc 34.40.133.67 6768` to access.\n\n**Author:** Eisverygoodletter",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T07:47:33.972Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": []
+      }
+    },
+    "detail_error": null
+  },
+  {
+    "id": 31,
+    "slug": "hashing-it-out",
+    "title": "hashing it out",
+    "tags": {
+      "categories": "pwn",
+      "difficulty": "easy"
+    },
+    "hidden": false,
+    "chained_after": null,
+    "value": 142,
+    "solve_count": 22,
+    "solved_by_me": false,
+    "detail": {
+      "id": 31,
+      "slug": "hashing-it-out",
+      "title": "hashing it out",
+      "description": "You've managed to get lost in the bush... In order to find your way you have to need to find a service that can tell you where you are. You just have to login first...\n\n```\nnc 34.40.133.67 4434\n```\n\n*Note: this challenge requires some brute-forcing. Please do not brute force the infrastucture and instead conduct the attack offline then use this knowledge to solve the problem online.*\n\n**Author**: Vals",
+      "hidden": false,
+      "visible_at": null,
+      "updated_at": "2026-07-31T07:48:24.113Z",
+      "chained_after": null,
+      "metadata": {
+        "solve": {
+          "input_type": "text"
+        },
+        "files": []
+      }
+    },
+    "detail_error": null
+  }
+]

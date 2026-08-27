@@ -1,0 +1,4 @@
+2026-07-14T21:03:08.107+03:00 Nightjar/Sync: staging encrypted attachment [thread=17]
+        2026-07-14T21:03:11.842+03:00 Nightjar/Sync: attachment ready [thread=17 revision=4 tx=47]
+        2026-07-14T21:03:14.942+03:00 Nightjar/Policy: remote replacement received [thread=17]
+        2026-07-14T21:03:19.442+03:00 Nightjar/Policy: retention purge completed [thread=17]

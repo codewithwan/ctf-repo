@@ -1,0 +1,63 @@
+=====BOOT=====
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:02.0 CA00 PCI2.10 PnP PMM+26FD1A20+26F31A20 CA00
+Press Ctrl-B to configure iPXE (PCI 00:02.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J=====CLEAN_RUN=====
+
+--=[ I WILL ONLY REVEAL MY SECRETS TO THE WORTHY ]=--
+
+[*] Initializing.
+system name = Linux
+node name   = (none)
+release     = 6.18.38-0-virt
+version     = #1-Alpine SMP PREEMPT_DYNAMIC 2026-07-05 14:30:07
+machine     = x86_64
+
+[+] I am now ready to test your system
+
+[*] Starting attestation
+    5
+    4
+    3
+    2
+    1
+    0
+CHECK [1/4]
+
+[-] Ewww, systemd! Isn't it for those who love to suffer?.. I won't run on THIS!
+=====CLEAN_EXIT=2=====
+=====STRACE_RUN=====
+=====STRACE_EXIT=2=====
+--- stdout ---
+
+--=[ I WILL ONLY REVEAL MY SECRETS TO THE WORTHY ]=--
+
+[*] Initializing.
+system name = Linux
+node name   = (none)
+release     = 6.18.38-0-virt
+version     = #1-Alpine SMP PREEMPT_DYNAMIC 2026-07-05 14:30:07
+machine     = x86_64
+
+[+] I am now ready to test your system
+
+[*] Starting attestation
+    5
+    4
+    3
+    2
+    1
+    0
+CHECK [1/4]
+
+[-] Ewww, systemd! Isn't it for those who love to suffer?.. I won't run on THIS!
+--- openat (non-lib) ---
+openat(AT_FDCWD, "/proc/1/comm", O_RDONLY) = 4
+--- reads of proc/1/comm and small reads ---
+openat(AT_FDCWD, "/proc/1/comm", O_RDONLY) = 4
+[   10.507365] reboot: Power down
+=====QEMU_DONE=====

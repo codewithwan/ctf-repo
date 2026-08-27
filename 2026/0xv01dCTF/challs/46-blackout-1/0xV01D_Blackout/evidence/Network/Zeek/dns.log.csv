@@ -1,0 +1,4 @@
+ts,uid,id.orig_h,query,qtype_name,answers
+2026-08-14T18:09:50.000Z,D1,10.20.44.17,_0.k984.voidcdn.net,TXT,v=spf1 include:dm9pZC1vcHMv -all
+2026-08-14T18:09:52.000Z,D2,10.20.44.17,_1.k984.voidcdn.net,TXT,v=spf1 include:YXVndXN0LXJl -all
+2026-08-14T18:09:54.000Z,D3,10.20.44.17,_2.k984.voidcdn.net,TXT,v=spf1 include:ZA== -all

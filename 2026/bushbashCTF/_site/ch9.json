@@ -1,0 +1,26 @@
+{
+  "data": {
+    "id": 9,
+    "slug": "the-cssa-hackerman-ii",
+    "title": "The CSSA Hackerman II",
+    "description": "![img](https://u.cubeupload.com/oreophone/b35da867a03e793b0d70.jpeg)\n\nAfter making a daring escape from the common room, the CSSA Hackerman hopped into his getaway car, which screamed away at 88mph.\n\nThe CSSA, of course, follows the speed limit at all times, so the getaway car got a pretty good head start. Confident that we're off their tail, the Hackerman is taking a rest stop by a lake.\n\nThe flag is the coordinates where the Hackerman is resting, to four decimal places. For example, accepted flags would be `bushbash{-35.3081,149.1244}` or `bushbash{-35.3082,149.1244}` if the Hackerman were standing underneath the Australian Parliament House flagpole.\n\n**Authors**: Cameron & Vals",
+    "hidden": false,
+    "visible_at": null,
+    "updated_at": "2026-07-31T04:48:54.342Z",
+    "chained_after": 7,
+    "metadata": {
+      "solve": {
+        "input_type": "text"
+      },
+      "files": [
+        {
+          "filename": "b35da867a03e793b0d7077933fb45c15.JPEG",
+          "size": 22931,
+          "hash": "sha256:eadd92e41d1b26182a5447a656808002f3f5c90cd11627b3a533ea83357bffae",
+          "url": "files/local/OsHV3_wBll-m8-A1RQXXo?iat=1785497400&sig=kv9eZeE0knD9c8qrVbRvH8sjMLynpCok5dTSgTCUeYs",
+          "is_attachment": true
+        }
+      ]
+    }
+  }
+}

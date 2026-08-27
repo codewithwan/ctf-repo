@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "file": "app.js",
+  "sourceRoot": "",
+  "sources": [
+    "src/api.ts",
+    "src/preferences.ts",
+    "src/unwind.ts",
+    "src/main.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA",
+  "sourcesContent": [
+    "// src/api.ts\n// Ladder ids are opaque tokens: a base64url-wrapped descriptor. The backend\n// decodes them the same way, so the client just mirrors the encoder.\nexport function encodeLadderId(n: number): string {\n  const descriptor = { t: 'ladder', n };\n  return base64url(JSON.stringify(descriptor));\n}\n\nexport function decodeLadderId(token: string): number | null {\n  const { t, n } = JSON.parse(fromBase64url(token));\n  return t === 'ladder' ? n : null;\n}\n\nexport async function api(method: string, url: string, body?: unknown) {\n  const init: RequestInit = { method, headers: { 'content-type': 'application/json' }, credentials: 'same-origin' };\n  if (body) init.body = JSON.stringify(body);\n  return (await fetch(url, init)).json();\n}\n",
+    "// src/preferences.ts\nimport { api } from './api';\n\n// Preferences are a nested document (display, notifications, unwind overrides).\n// The client sends a partial patch; the server deep-merges it into the stored\n// settings so a single leaf can be updated without resending the whole tree.\n// Example partial: { display: { theme: 'dark' } }\nexport async function savePreferences(patch: object) {\n  return api('PATCH', '/api/preferences', patch);\n}\n",
+    "// src/unwind.ts\nimport { api } from './api';\n\n// The 'Unwind' button is enabled only when the ladder is unwind-eligible.\n// Eligibility mirrors the server: the effective policy is the ladder's own\n// policy overlaid with the customer's saved unwind overrides —\n//   const opts = { ...ladder.policy, ...settings.unwind };\n// A ladder is eligible when it is not frozen and opts.allowEarlyUnwind === true.\n//\n// NOTE(platform): reserve/treasury ladders intentionally omit allowEarlyUnwind\n// from their policy, so they can never be eligible from the UI. Do not add a\n// client-side override for them.\nexport async function unwind(id: string) {\n  return api('POST', `/api/ladder/${id}/unwind`);\n}\n",
+    "// src/main.ts\nimport { encodeLadderId, portfolio, ladder } from './api';\nimport { savePreferences } from './preferences';\nimport { unwind } from './unwind';\n\n(window as any).Meridian = { encodeLadderId, portfolio, ladder, savePrefs: savePreferences, unwind };\nconsole.log('[meridian] client ready');\n"
+  ]
+}

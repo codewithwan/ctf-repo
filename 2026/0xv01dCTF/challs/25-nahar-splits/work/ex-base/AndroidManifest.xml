@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="void.mobile.splitoracle" split="base">
+  <application android:label="SplitOracle"/>
+</manifest>

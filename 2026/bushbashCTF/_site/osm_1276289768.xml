@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (3558375 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1801088669" visible="true" version="2" changeset="182229644" timestamp="2026-05-05T03:10:55Z" user="Robuster" uid="6575994" lat="-35.2753572" lon="149.1204029"/>
+ <node id="10096630395" visible="true" version="1" changeset="127442632" timestamp="2022-10-13T02:32:29Z" user="Alex Shearing" uid="5009381" lat="-35.2753367" lon="149.1199912"/>
+ <node id="11849107551" visible="true" version="1" changeset="150519668" timestamp="2024-04-26T04:00:16Z" user="mario7436" uid="9351600" lat="-35.2752651" lon="149.1194522"/>
+ <node id="11849107554" visible="true" version="1" changeset="150519668" timestamp="2024-04-26T04:00:16Z" user="mario7436" uid="9351600" lat="-35.2753078" lon="149.1197338"/>
+ <node id="12730424893" visible="true" version="1" changeset="164538572" timestamp="2025-04-05T07:25:23Z" user="trickypr" uid="13637065" lat="-35.2753523" lon="149.1202557"/>
+ <way id="1276289768" visible="true" version="2" changeset="164538572" timestamp="2025-04-05T07:25:23Z" user="trickypr" uid="13637065">
+  <nd ref="11849107551"/>
+  <nd ref="11849107554"/>
+  <nd ref="10096630395"/>
+  <nd ref="12730424893"/>
+  <nd ref="1801088669"/>
+  <tag k="highway" v="footway"/>
+ </way>
+</osm>

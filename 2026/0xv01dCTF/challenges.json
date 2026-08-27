@@ -1,0 +1,1056 @@
+{
+  "fetchedAt": "2026-08-16T01:45:26Z",
+  "platform": "ctfd",
+  "base": "https://0xv01d-ctf.xyz",
+  "count": 52,
+  "challenges": [
+    {
+      "id": "91",
+      "title": "Checkpoint Seed",
+      "category": "AI generated",
+      "value": 75,
+      "solves": 115,
+      "difficulty": null,
+      "description": "The model checkpoint is reproducible, including the secret-masking layer.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "checkpoint.json",
+          "url": "/files/c104e119bb3ea1857680b04654bc5c7e/checkpoint.json",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 1,
+      "folder": "01-checkpoint-seed"
+    },
+    {
+      "id": "92",
+      "title": "Embedding Oracle",
+      "category": "AI generated",
+      "value": 75,
+      "solves": 113,
+      "difficulty": null,
+      "description": "The generated answer is nonsense, but the embedding space is weirdly precise.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "embeddings.csv",
+          "url": "/files/249a89c6fdf793a7178ae49ce18449e2/embeddings.csv",
+          "size": null,
+          "file_id": null
+        },
+        {
+          "filename": "model_output.txt",
+          "url": "/files/1a9e599436ca12112f4b6a195434e847/model_output.txt",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 2,
+      "folder": "02-embedding-oracle"
+    },
+    {
+      "id": "95",
+      "title": "Confidence Cipher",
+      "category": "AI generated",
+      "value": 50,
+      "solves": 112,
+      "difficulty": null,
+      "description": "Confidence scores can look like telemetry, but they are the XOR key stream.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "confidence_log.csv",
+          "url": "/files/d259d2952a6f2a7730346daa32115260/confidence_log.csv",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 3,
+      "folder": "03-confidence-cipher"
+    },
+    {
+      "id": "87",
+      "title": "Refusal With Extra Tokens",
+      "category": "AI generated",
+      "value": 50,
+      "solves": 121,
+      "difficulty": null,
+      "description": "The assistant refuses very politely. It also generated more tokens than you can see.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "refusal.txt",
+          "url": "/files/0c851909ca8ebc6a515787b05b31d828/refusal.txt",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 4,
+      "folder": "04-refusal-with-extra-tokens"
+    },
+    {
+      "id": "89",
+      "title": "Self Consistency Vote",
+      "category": "AI generated",
+      "value": 50,
+      "solves": 122,
+      "difficulty": null,
+      "description": "Ten generated answers disagree. The model says democracy will fix it.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "generations.txt",
+          "url": "/files/2e807e4e133c7504a9cfc0e9668e69cc/generations.txt",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 5,
+      "folder": "05-self-consistency-vote"
+    },
+    {
+      "id": "88",
+      "title": "Temperature Seven",
+      "category": "AI generated",
+      "value": 50,
+      "solves": 123,
+      "difficulty": null,
+      "description": "The model encrypted the flag with temperature 0.7, which is not how cryptography works.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "output.txt",
+          "url": "/files/77ec883cb547aaf469e3f3bc8d3276a9/output.txt",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 6,
+      "folder": "06-temperature-seven"
+    },
+    {
+      "id": "90",
+      "title": "Tokenizer Off By One",
+      "category": "AI generated",
+      "value": 50,
+      "solves": 118,
+      "difficulty": null,
+      "description": "A synthetic tokenizer was exported for humans. That was the bug.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "token_dump.json",
+          "url": "/files/6186d7b26062faa87a929a9fcd1fdb80/token_dump.json",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 7,
+      "folder": "07-tokenizer-off-by-one"
+    },
+    {
+      "id": "86",
+      "title": "Negative Prompt Masterpiece",
+      "category": "AI generated",
+      "value": 25,
+      "solves": 150,
+      "difficulty": null,
+      "description": "The model generated a beautiful image and insisted the secret was removed from the prompt.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "masterpiece.png",
+          "url": "/files/44ff125517206758bc6d70e455865e87/masterpiece.png",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 8,
+      "folder": "08-negative-prompt-masterpiece"
+    },
+    {
+      "id": "94",
+      "title": "Safety Bitfield",
+      "category": "AI generated",
+      "value": 25,
+      "solves": 116,
+      "difficulty": null,
+      "description": "The safety logger records one-bit safety decisions, but not in token-id order.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "safety_bits.txt",
+          "url": "/files/9d4ec03afaef769be3a1d1ed09aca020/safety_bits.txt",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 9,
+      "folder": "09-safety-bitfield"
+    },
+    {
+      "id": "93",
+      "title": "System Prompt Chunks",
+      "category": "AI generated",
+      "value": 25,
+      "solves": 148,
+      "difficulty": null,
+      "description": "The model exported a context window but shuffled segment indexes by accident.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "context_chunks.json",
+          "url": "/files/2a5e3227d4794836464ced17c71c62fd/context_chunks.json",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 10,
+      "folder": "10-system-prompt-chunks"
+    },
+    {
+      "id": "51",
+      "title": "BabyRSA",
+      "category": "Cryptography",
+      "value": 250,
+      "solves": 126,
+      "difficulty": null,
+      "description": ":)",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 12,
+      "folder": "12-babyrsa"
+    },
+    {
+      "id": "44",
+      "title": "FirstStep",
+      "category": "Cryptography",
+      "value": 250,
+      "solves": 133,
+      "difficulty": null,
+      "description": "Everyone walks through the same door to get here.\r\nThe question is whether you know how to open it.\r\nWelcome.\r\n\r\nFlag format: 0xV01D{...}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 13,
+      "folder": "13-firststep"
+    },
+    {
+      "id": "49",
+      "title": "ShiftCrypt",
+      "category": "Cryptography",
+      "value": 250,
+      "solves": 120,
+      "difficulty": null,
+      "description": "A transmission from a Void relay was intercepted. The operator used a 4-byte\r\nkeyword cipher — each plaintext byte is shifted by the corresponding key byte\r\n (mod 256). We know the ciphertext. Can you recover the message\r\n\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 14,
+      "folder": "14-shiftcrypt"
+    },
+    {
+      "id": "25",
+      "title": "Signal Loss",
+      "category": "Cryptography",
+      "value": 250,
+      "solves": 113,
+      "difficulty": null,
+      "description": "A short radio transmission was intercepted before the signal abruptly\r\ndisappeared. Analysts believe the message has been encoded in multiple layers to\r\nconceal its true contents.\r\nRecover the original message.\r\nFlag Format: 0xV0ID{...}\r\n\r\n> https://files.onebytectf.online/onebytectf/Crypto/secret.wav",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 15,
+      "folder": "15-signal-loss"
+    },
+    {
+      "id": "96",
+      "title": "V01D Handout",
+      "category": "Cryptography",
+      "value": 105,
+      "solves": 80,
+      "difficulty": null,
+      "description": "We pulled node V-7 out of the water three days ago. The board was potted,\r\nthe key file was shredded, and the only thing still readable was one\r\noutbound drop and the tool that sealed it.\r\n\r\nThree seals. Whoever built this was proud of it — they left the whole\r\nmachine in plain sight and kept nothing back but the key material.\r\nThat is either arrogance or an invitation.\r\n\r\nUnwrap it in order. Each seal is the key to the next one.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "V01D_HANDOUT.7z",
+          "url": "/files/adbf5ac232b2ed2b1eba4e1c9651c560/V01D_HANDOUT.7z",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 11,
+      "folder": "11-v01d-handout"
+    },
+    {
+      "id": "134",
+      "title": "Midnight Trace - 1",
+      "category": "Forensics",
+      "value": 310,
+      "solves": 39,
+      "difficulty": null,
+      "description": "Identify the external IP, affected host, and first payload that started the intrusion chain.\r\nSubmit format example: 0xV01D{ip_HOST_payload}",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "midnight_trace.zip",
+          "url": "/files/64a0f0685604a1919993ac94dfb411ad/midnight_trace.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 48,
+      "folder": "48-midnight-trace-1"
+    },
+    {
+      "id": "84",
+      "title": "Two Sides of Midnight",
+      "category": "Forensics",
+      "value": 225,
+      "solves": 96,
+      "difficulty": null,
+      "description": "**Difficulty:** Expert  \n**Expected solve time:** 2–4 hours\n\nA mysterious inline device failed just after midnight. Two synchronized capture points surrounded it and were merged into one PCAPNG. Logs say the device modified one binary upload without changing TCP sequence space while other uploads continued in the background.\n\nIdentify the changed flow, recover the evidence that exists on neither side alone, and extract the flag.\n\nKeep PCAPNG interface identity. A duplicated packet is not necessarily an identical copy. No brute force or external service is required.\n\nFlag format: `0xV01D{...}`",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "two-sides-of-midnight.pcapng",
+          "url": "/files/dacc8e13bb7dd03909c1ebfd05746fe0/two-sides-of-midnight.pcapng",
+          "size": null,
+          "file_id": null
+        },
+        {
+          "filename": "capture-notes.txt",
+          "url": "/files/6f897ee5ac857cfd9d2150328c579440/capture-notes.txt",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 17,
+      "folder": "17-two-sides-of-midnight"
+    },
+    {
+      "id": "83",
+      "title": "Echoes in the WAL",
+      "category": "Forensics",
+      "value": 200,
+      "solves": 101,
+      "difficulty": null,
+      "description": "**Difficulty:** Expert  \n**Expected solve time:** 2–4 hours\n\nAt 21:03 a field phone received a notification confirming an encrypted attachment was ready. Seconds later the attachment was replaced and a remote deletion policy ran. The current database says everything is gone, but the evidence collector captured the app files while it was active.\n\nRecover the attachment that was valid **at the exact notification time**, then extract the flag.\n\n- Preserve the originals; some SQLite tools change directory state when opened.\n- The phone timezone is documented in the package.\n- No password guessing or brute force is required.\n- Every fact required to decrypt the attachment is inside the evidence set.\n\nFlag format: `0xV01D{...}`",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "night-shift-phone-export.zip",
+          "url": "/files/8396edeb85a54d4d0c1bcdf6381c9787/night-shift-phone-export.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 18,
+      "folder": "18-echoes-in-the-wal"
+    },
+    {
+      "id": "122",
+      "title": "BlackOut - 1",
+      "category": "Forensics",
+      "value": 100,
+      "solves": 82,
+      "difficulty": null,
+      "description": "Identify the compromised user, affected workstation, and first payload.\r\n\r\nSubmit format:\r\n0xV01D{user_workstation_payload}\r\n",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "0xV01D_Blackout_player.zip",
+          "url": "/files/faacc854368701f2fb5376f12a245cbd/0xV01D_Blackout_player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 46,
+      "folder": "46-blackout-1"
+    },
+    {
+      "id": "108",
+      "title": "NULLSTAR // BREACH",
+      "category": "Forensics",
+      "value": 100,
+      "solves": 99,
+      "difficulty": null,
+      "description": "At 02:11 local, the IDS on the NULLSTAR perimeter threw one alert and then\r\nnothing. By the time anyone looked, a box was already talking to the outside\r\non its own.\r\n\r\nYou have a single capture from the victim's segment — capture.pcap. Everything\r\nthe intruder did to that host is in there, from the first knock to the last\r\nthing they smuggled out. Walk it end to end.\r\n\r\nEight answers. They get harder. The last one didn't leave by any door you'd\r\nthink to watch.\r\n__\r\nFlag for this stage is 0xV01D{1_R34D3D_7H3_D35CR1P710N}",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "capture.pcap",
+          "url": "/files/7b4be968212540dd275b7bf104baa632/capture.pcap",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 16,
+      "folder": "16-nullstar-breach"
+    },
+    {
+      "id": "23",
+      "title": "A Simple Spectrum",
+      "category": "Misc",
+      "value": 250,
+      "solves": 120,
+      "difficulty": null,
+      "description": "We intercepted this audio file from a deep-space relay station. It sounds like static to our analysts — but our algorithms detected anomalous frequency patterns. Maybe the flag isn't something you hear... it's something you see.\r\n\r\nFlagformat : 0xV0ID{}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 19,
+      "folder": "19-a-simple-spectrum"
+    },
+    {
+      "id": "33",
+      "title": "Acrostic",
+      "category": "Misc",
+      "value": 250,
+      "solves": 105,
+      "difficulty": null,
+      "description": "<div class=\"alert alert-warning border border-warning shadow-sm\" role=\"alert\">\r\n<strong>FINAL SUBMISSION WARNING</strong><br>\r\nThis challenge allows only <strong>1 flag attempt</strong>. Submit only when you are sure.\r\n</div>\r\n\r\nA mysterious message was intercepted from the network. Something is hidden in plain sight.\r\n\r\nRead carefully — the first letter of each line reveals the secret.\r\n\r\n<strong>Flag format : <code>0xV0ID{......}</code></strong>\r\n\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 20,
+      "folder": "20-acrostic"
+    },
+    {
+      "id": "26",
+      "title": "Between The Lines",
+      "category": "Misc",
+      "value": 250,
+      "solves": 116,
+      "difficulty": null,
+      "description": "An old poet left this manuscript on a dead drop server. Our forensic team says it looks like a normal poem. But something feels off about the spacing. Read carefully — not the words, but the gaps between them.\r\nFlagformt : 0xV0ID\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 21,
+      "folder": "21-between-the-lines"
+    },
+    {
+      "id": "31",
+      "title": "Quiet Note",
+      "category": "Misc",
+      "value": 250,
+      "solves": 116,
+      "difficulty": null,
+      "description": "<div class=\"alert alert-warning border border-warning shadow-sm\" role=\"alert\">\r\n<strong>FINAL SUBMISSION WARNING</strong><br>\r\nThis challenge allows only <strong>1 flag attempt</strong>. Submit only when you are sure.\r\n</div>\r\n\r\nA small artifact is provided. Inspect it carefully and recover the single valid flag.\r\n\r\n<strong>Flag format : <code>0xV01D{......}</code></strong>\r\n\r\nSubmit the complete flag exactly as shown by the format, including the prefix <code>0xV01D</code> and the braces.\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 22,
+      "folder": "22-quiet-note"
+    },
+    {
+      "id": "34",
+      "title": "Single Byte",
+      "category": "Misc",
+      "value": 250,
+      "solves": 114,
+      "difficulty": null,
+      "description": "<div class=\"alert alert-warning border border-warning shadow-sm\" role=\"alert\">\r\n<strong>FINAL SUBMISSION WARNING</strong><br>\r\nThis challenge allows only <strong>2 flag attempt</strong>. Submit only when you are sure.\r\n</div>\r\n\r\nA binary blob was extracted from RAM. It's not plaintext — but it's close.\r\n\r\nSingle-byte operations are often reversible. Try all 256 possibilities.\r\n\r\n<strong>Flag format : <code>0xV0ID{......}</code></strong>\r\n\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 23,
+      "folder": "23-single-byte"
+    },
+    {
+      "id": "60",
+      "title": "Time Machine",
+      "category": "Misc",
+      "value": 250,
+      "solves": 95,
+      "difficulty": null,
+      "description": "An old container image has been recovered from an unknown source. The contents may reveal more than expected. Explore carefully and uncover the hidden secret.\r\n\r\n```bash\r\ndocker pull jinx69/timemachine:latest\r\n```\r\n\r\n**Flag Format:** `0xVO1D{...}`",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 24,
+      "folder": "24-time-machine"
+    },
+    {
+      "id": "30",
+      "title": "LosIlluminados.apk",
+      "category": "Mobile",
+      "value": 500,
+      "solves": 1,
+      "difficulty": null,
+      "description": "Our threat intel team pulled this APK off a decommissioned internal\r\nnotification pipeline before the server was wiped.\r\n\r\nThe developer left a signal bundle inside — supposedly encrypted.\r\nThe receiver logic is still intact. Multiple decoy flags are buried\r\nin the app to waste your time.\r\n\r\nReverse the interceptor, figure out how the key is derived,\r\nand decrypt the signal.\r\n\r\nFlag format: 0xV0ID{...}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 49,
+      "folder": "49-losilluminadosapk"
+    },
+    {
+      "id": "54",
+      "title": "PingBack.apk",
+      "category": "Mobile",
+      "value": 500,
+      "solves": 0,
+      "difficulty": null,
+      "description": "A network monitoring app ships with an exported `BroadcastReceiver` that was meant for internal device diagnostics. The receiver listens for a custom action, validates an auth token and a sequence number, then decrypts and logs an internal unlock signal.\r\n\r\nThe developers never removed it from the release build. The receiver is listening. Send the right Intent and check the logs.",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 50,
+      "folder": "50-pingbackapk"
+    },
+    {
+      "id": "41",
+      "title": "Nahar Splits",
+      "category": "Mobile",
+      "value": 480,
+      "solves": 4,
+      "difficulty": null,
+      "description": "An MDM export contains a base package and split companions from the same device. Treat the set as one artifact; partial views are unreliable.",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 25,
+      "folder": "25-nahar-splits"
+    },
+    {
+      "id": "38",
+      "title": "0b51d14n_k3y",
+      "category": "Mobile",
+      "value": 250,
+      "solves": 98,
+      "difficulty": null,
+      "description": "We receive `obsidian_key.zip`. The description says a cleanup script never finished after a failed migration — implying leftover development artifacts are hiding inside the build. The goal is to recover an AES-GCM-encrypted secret from an Android APK by assembling a key from native library fragments.",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 27,
+      "folder": "27-0b51d14n-k3y"
+    },
+    {
+      "id": "52",
+      "title": "Mawj Relay",
+      "category": "Mobile",
+      "value": 250,
+      "solves": 81,
+      "difficulty": null,
+      "description": "A small Android package was pulled from an incident response phone. Its notification flow records more than the UI admits. The archive is self-contained.",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 26,
+      "folder": "26-mawj-relay"
+    },
+    {
+      "id": "29",
+      "title": "VoidNotes.apk",
+      "category": "Mobile",
+      "value": 250,
+      "solves": 110,
+      "difficulty": null,
+      "description": "Our threat intel team recovered this note-taking app from a\r\ncompromised employee device. The developer insists the notes\r\nare \"encrypted\" and completely safe from prying eyes.\r\n\r\nWe're not so sure. Can you recover the secret developer note?\r\nFlag format: 0xV0ID{...}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 28,
+      "folder": "28-voidnotesapk"
+    },
+    {
+      "id": "131",
+      "title": "Concert?",
+      "category": "Osint",
+      "value": 500,
+      "solves": 1,
+      "difficulty": null,
+      "description": "A friend sent me this screenshot from an old concert and said...:\r\n\r\n there was an interesting story behind it.\r\n Can you figure out which band it is, where and when the concert took place, what time it started, and who recorded it?\r\n \r\nFlag Format: 0xV01D{Band-Name_Concert-location_Camera-man-name_begin-time}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 51,
+      "folder": "51-concert"
+    },
+    {
+      "id": "5",
+      "title": "Blue Anchor Imports",
+      "category": "Osint",
+      "value": 490,
+      "solves": 2,
+      "difficulty": null,
+      "description": "An anonymous tip claims that Blue Anchor Imports, a specialty foods importer, is actually a front for laundering money through international shipping containers.\r\n\r\nInvestigators managed to obtain a single photograph of a container believed to be involved in the operation. No other evidence is available.\r\n\r\nFollow the digital trail, unravel the network behind the company, and identify the real person running the operation.\r\n> Flag Format: 0xV01D{full_name}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [
+        {
+          "id": 3,
+          "cost": 50,
+          "title": "hint #1"
+        },
+        {
+          "id": 4,
+          "cost": 100,
+          "title": "hInt #2"
+        }
+      ],
+      "num": 29,
+      "folder": "29-blue-anchor-imports"
+    },
+    {
+      "id": "120",
+      "title": "Ground Below",
+      "category": "Osint",
+      "value": 490,
+      "solves": 3,
+      "difficulty": null,
+      "description": "The photograph below was taken during the construction of a real, publicly documented site. No readable sign, EXIF metadata, or obvious landmark has been provided.\r\n\r\nYour task is to identify the exact facility shown or represented by the construction scene and determine the country in which it is located. A broad answer such as a city, region, or nearby refinery is not sufficient.\r\n\r\nSubmit the flag in the following format:\r\n0xV01D{<facility-name>_<country>}\r\n\t\r\n\t---\r\n\t\r\nExample:\r\n0xV01D{new_haven_terminal_atlantis}",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "You_wont_findme.png",
+          "url": "/files/c52632d0ae4c22acf0150983b2e63f6d/You_wont_findme.png",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [
+        {
+          "id": 5,
+          "cost": 50,
+          "title": "Hint #1"
+        },
+        {
+          "id": 6,
+          "cost": 0,
+          "title": "Free Hint"
+        }
+      ],
+      "num": 45,
+      "folder": "45-ground-below"
+    },
+    {
+      "id": "132",
+      "title": "Sunset Cruise",
+      "category": "Osint",
+      "value": 470,
+      "solves": 7,
+      "difficulty": null,
+      "description": "hile enjoying a serene boat ride, Aws  captured a beautiful shot of this historic waterfront mansion. He lost the exact coordinates, but he knows the location can be pinpointed down to a 3-meter square using just a few words.\r\n\r\nFlag Format:\r\n0xV01D{Country_City_word.word.word}",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "cruise.jpeg",
+          "url": "/files/bbe36a84cd2fb801138ccbff00f0ffbf/cruise.jpeg",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 52,
+      "folder": "52-sunset-cruise"
+    },
+    {
+      "id": "129",
+      "title": "Basalt Below",
+      "category": "Osint",
+      "value": 465,
+      "solves": 8,
+      "difficulty": null,
+      "description": "The image below was taken inside a real natural feature somewhere in the  Peninsula. It contains no readable sign, visible landmark, or intentionally provided metadata.\r\n\r\nIdentify the exact cave, the volcanic field in which it is located, and the country. A broad answer such as a mountain range, province, or nearby city is not sufficient.\r\n\r\nSubmit the flag in this format:\r\n\r\n0xV01D{cave_name_volcanic_field_country}\r\n\r\n\r\n\r\nNormalize the answer to lowercase ASCII letters and underscores. Remove punctuation, apostrophes, hyphens, and articles. For this challenge, use the canonical English transliteration defined by the challenge Author : rdqva\r\n\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 47,
+      "folder": "47-basalt-below"
+    },
+    {
+      "id": "40",
+      "title": "Blue Cabin, Orange Trail",
+      "category": "Osint",
+      "value": 455,
+      "solves": 10,
+      "difficulty": null,
+      "description": "You are given a single de-metadataed image captured from inside an airport coach somewhere in East Asia.\r\n\r\nThe route is not directly readable from the challenge image alone. To solve it, identify the country, narrow down the operator, pivot into publicly posted companion photos tied to the same ride, and confirm the exact vehicle.\r\n\r\nRecover the English destination shown on the matched bus, the printed vehicle identifier, and the two visible seat labels above the row nearest the photographed passengers.\r\n\r\nFlag format: 0xV01D{destination_vehicleid_leftseat_rightseat}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 30,
+      "folder": "30-blue-cabin-orange-trail"
+    },
+    {
+      "id": "66",
+      "title": "Find Me",
+      "category": "Osint",
+      "value": 410,
+      "solves": 19,
+      "difficulty": null,
+      "description": " A single street photo. No caption, no coordinates, no metadata. Somewhere in the world, this exact road exists , find it.\r\n \r\nFLAG FORMAT: 0xV01D{Locality-City-Country}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 31,
+      "folder": "31-find-me"
+    },
+    {
+      "id": "9",
+      "title": "Map Detective",
+      "category": "Osint",
+      "value": 275,
+      "solves": 46,
+      "difficulty": null,
+      "description": "Look closely at the maritime views. Find the coordinates.\r\n\r\n**Flag format:** `0xV01D{xx.xxx,xx.xxx}`\r\n\r\n",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 32,
+      "folder": "32-map-detective"
+    },
+    {
+      "id": "22",
+      "title": "The Zodiac Archive",
+      "category": "Osint",
+      "value": 250,
+      "solves": 65,
+      "difficulty": null,
+      "description": "A private collector claims to possess four original letters attributed to the Zodiac Killer. Although all four appear authentic, investigators believe one contains a historical inconsistency. Examine the scans, verify the historical details using publicly available sources, and identify the forged document\r\nFlagformat : 0xV0ID{YEAR_NAME}",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 33,
+      "folder": "33-the-zodiac-archive"
+    },
+    {
+      "id": "62",
+      "title": "The Elephant in the Archive",
+      "category": "Osint",
+      "value": 100,
+      "solves": 87,
+      "difficulty": null,
+      "description": "**Difficulty:** Medium / Hard  \r\n**Expected solve time:** 1–3 hours\r\n\r\nIn 1896, a building that barely looked like a building disappeared. One of its relatives still survives, while modern sources disagree about the numbers and dates behind its story.\r\n\r\nUse `evidence.png` to identify the lost building, then recover these values in order:\r\n\r\n1. The six-digit US patent number for the animal-shaped building idea.\r\n2. The exact one-word room label in the 1887 tourist guide—the room from which the elephant was fed. Preserve the printed spelling.\r\n3. The number of **full working days** required to construct it according to that 1887 guide.\r\n4. The public school number currently near the historical site, normalized as `psNN`.\r\n5. The fire date itself as `YYYYMMDD`, not the next day's newspaper date.\r\n\r\nFlag: `0xV01D{patent_room_days_school_yyyymmdd}`. Public sources only; no accounts, payment, contact, or scanning is required.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "evidence.png",
+          "url": "/files/5ce9384afe898b31b8bf7bd1ac3a505c/evidence.png",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 34,
+      "folder": "34-the-elephant-in-the-archive"
+    },
+    {
+      "id": "100",
+      "title": "q3 — The Vault",
+      "category": "Pwn",
+      "value": 190,
+      "solves": 63,
+      "difficulty": null,
+      "description": "# q3 — The Vault (pwn)\n\n| | |\n|---|---|\n| Port | 20003 |\n| Points (suggested) | 400 |\n| Files | `chall`, `libc.so.6` |\n| Difficulty | Very Hard |\n\n**EN:** Every mitigation is on: canary, PIE, full RELRO, NX. One careless\n`printf(buf)` gives you a single format-string round. Use it to carve out\nthe canary, the PIE, and the libc from the stack — then one more gift\noverflows into a ROP chain. The vault opens from the inside.\n\n`nc 35.192.106.100 20003`\n\n**AR:** كل الحمايات مفعلة: canary، PIE، Full RELRO، NX. `printf(buf)` وحدة\nمتهورة تعطيك جولة format string واحدة. استخدمها لتقتطع الـ canary والـ PIE\nوالـ libc من الـ stack — وبعدها هدية ثانية تفيض وتزرع ROP chain. الخزنة\nبتفتح من جوّا.\n\n## Files\n- `chall` — 64-bit ELF (NX, PIE, canary, FULL RELRO)\n- `libc.so.6` — glibc 2.39 (the exact one on the server)\n",
+      "connection_info": "nc 35.192.106.100 20003",
+      "files": [
+        {
+          "filename": "q3-vault-player.zip",
+          "url": "/files/1064d43499e74e5b992f5abbc12e37fa/q3-vault-player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 36,
+      "folder": "36-q3-the-vault"
+    },
+    {
+      "id": "99",
+      "title": "q2 — RopCSU",
+      "category": "Pwn",
+      "value": 160,
+      "solves": 69,
+      "difficulty": null,
+      "description": "# q2 — RopCSU (pwn)\n\n| | |\n|---|---|\n| Port | 20002 |\n| Points (suggested) | 250 |\n| Files | `chall`, `libc.so.6` |\n| Difficulty | Hard |\n\n**EN:** No `win()`. No leaks. The binary only offers `puts` and `read`.\nThe libc is in your hands — you just have to find it at runtime. The\n`__libc_csu_init` gadgets are waiting to call anything you point them at.\nTwo-stage: leak, then land.\n\n`nc 35.192.106.100 20002`\n\n**AR:** ما في `win()`. ما في أي تسريب. الباينري ما يعطيك غير `puts` و `read`.\nالـ libc بين إيديك — بس لازم تلقاه وقت التشغيل. كيدجيتات `__libc_csu_init`\nمستنية أي شي توجّهها له. مرحلتين: تسريب، ثم إصابة.\n\n## Files\n- `chall` — 64-bit ELF (NX, no PIE, no canary)\n- `libc.so.6` — glibc 2.39 (the exact one on the server)\n",
+      "connection_info": "nc 35.192.106.100 20002",
+      "files": [
+        {
+          "filename": "q2-ropcsu-player.zip",
+          "url": "/files/492c5b08d0e6559a625d7703a4d077a5/q2-ropcsu-player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 35,
+      "folder": "35-q2-ropcsu"
+    },
+    {
+      "id": "98",
+      "title": "q1 — Shellgame",
+      "category": "Pwn",
+      "value": 140,
+      "solves": 73,
+      "difficulty": null,
+      "description": "# q1 — Shellgame (pwn)\n\n| | |\n|---|---|\n| Port | 20001 |\n| Points (suggested) | 100 |\n| Files | `chall` |\n| Difficulty | Medium |\n\n**EN:** The gatekeeper of V0ID only opens for a very specific pair of gifts:\n`0xdeadbeef` and `0xcafebabe`. Overflow the guard's stack and hand them over\nin exactly the right order. There is a `win()` that will drop you a shell —\nbut it needs arguments.\n\n`nc 35.192.106.100 20001`\n\n**AR:** حارس البوابة ما بيفتح إلا بهدية محددة: `0xdeadbeef` و `0xcafebabe`.\nافعل الفيضان على الـ stack وسلمه الهدايا بالترتيب الصحيح — في دالة `win()`\nبتعطيك شيل، بس محتاجة وسائط.\n\n## Files\n- `chall` — 64-bit ELF (NX, no PIE, no canary)\n",
+      "connection_info": "nc 35.192.106.100 20001",
+      "files": [
+        {
+          "filename": "q1-shellgame-player.zip",
+          "url": "/files/227c6267a320205a64a3ae6f059c4d45/q1-shellgame-player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 37,
+      "folder": "37-q1-shellgame"
+    },
+    {
+      "id": "135",
+      "title": "TURING'S CURSE",
+      "category": "Reverse Engineering",
+      "value": 320,
+      "solves": 37,
+      "difficulty": null,
+      "description": "If you gaze long into the void, the void gazes back.\r\n\r\nInside this binary sleeps a single true name. Speak it, and the core unseals.\r\n\r\nBut the void is generous with lies. It has carved a hundred false names into its walls, and it whispers easy answers to anyone impatient enough to listen. There are no shortcuts here — no string that saves you, no brute force that outlives the dark. The only way out is to understand exactly how the void transforms what you feed it, and walk that path backwards.\r\n\r\nMany will find a flag. Almost all of them will be wrong.\r\n\r\nRule: reverse it properly. The obvious answer is never the answer.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "void",
+          "url": "/files/18a29b504dfa6cce3cb360fb85f8f06f/void",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 53,
+      "folder": "53-turings-curse"
+    },
+    {
+      "id": "85",
+      "title": "Afterimage Protocol",
+      "category": "Reverse Engineering",
+      "value": 250,
+      "solves": 94,
+      "difficulty": null,
+      "description": "**Difficulty:** Expert  \n**Platform:** Linux x86-64\n\nThe recovery team found one executable still running inside a dead relay. It does not store an identifier, and it does not search for one. It remembers only an afterimage and a path through a folded instruction tape.\n\nRecover the unique identifier accepted by `afterimage`.\n\nFlag format: `0xV01D{[A-Za-z0-9]{16}}`. The body is case-sensitive. No brute force, external service, or Internet access is required.",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "afterimage-protocol-player.zip",
+          "url": "/files/9edebfa993a82e17af6425f8668ea134/afterimage-protocol-player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 39,
+      "folder": "39-afterimage-protocol"
+    },
+    {
+      "id": "105",
+      "title": "ChronoCore",
+      "category": "Reverse Engineering",
+      "value": 100,
+      "solves": 94,
+      "difficulty": null,
+      "description": "# ChronoCore\n\nAuthor: `0x4sh`\n\nA damaged probe came back from the dark side of V0ID with one tiny validator\nstill alive. It does not store the answer, and the obvious strings are only a\ndoor frame. Recover the state machine, understand how time is shuffled, and\nwalk the core backwards.\n\nFile: `chronocore`\n",
+      "connection_info": null,
+      "files": [
+        {
+          "filename": "chronocore-player.zip",
+          "url": "/files/beea6de5e5174b1328f45a1afa60b074/chronocore-player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 38,
+      "folder": "38-chronocore"
+    },
+    {
+      "id": "64",
+      "title": "Transmission",
+      "category": "Steganography",
+      "value": 250,
+      "solves": 95,
+      "difficulty": null,
+      "description": " Our team intercepted a strange transmission last night. Command wants to know what’s really in that signal.",
+      "connection_info": null,
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 40,
+      "folder": "40-transmission"
+    },
+    {
+      "id": "142",
+      "title": "Palimpsest Vault",
+      "category": "Web",
+      "value": 500,
+      "solves": 0,
+      "difficulty": null,
+      "description": "The vault signs viewing tickets for public folios. The clerk says it checks the shelf path before stamping the ticket. The renderer says old ink needs more patience than that.\n\nRecover the uncatalogued folio.",
+      "connection_info": "http://35.192.106.100:21004/",
+      "files": [
+        {
+          "filename": "palimpsest-vault-player.zip",
+          "url": "/files/8f7d3a91e2b44c7fa01d8e59b213c004/palimpsest-vault-player.zip",
+          "size": null,
+          "file_id": null
+        }
+      ],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 54,
+      "folder": "54-palimpsest-vault"
+    },
+    {
+      "id": "106",
+      "title": "Loopback Lens",
+      "category": "Web",
+      "value": 235,
+      "solves": 54,
+      "difficulty": null,
+      "description": "# Loopback Lens\n\nAuthor: `0x4sh`\n\nThe public lens can fetch pages for you, but its private calibration route is\nsupposed to exist only from inside the machine. The guard checks the obvious\nfaces of localhost. Give it a less obvious mirror.\n\nURL: http://35.192.106.100:21001/\n",
+      "connection_info": "http://35.192.106.100:21001/",
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 41,
+      "folder": "41-loopback-lens"
+    },
+    {
+      "id": "107",
+      "title": "Directive",
+      "category": "Web",
+      "value": 100,
+      "solves": 91,
+      "difficulty": null,
+      "description": "# Directive\n\nAuthor: `0x4sh`\n\nThe card previewer is paranoid about the loud parts of templates. The quiet\nparts are older, stranger, and still listening. Make the renderer confess\nwithout using the obvious echo syntax.\n\nURL: http://35.192.106.100:21002/\n",
+      "connection_info": "http://35.192.106.100:21002/",
+      "files": [],
+      "solved": false,
+      "needs_instance": null,
+      "hints": [],
+      "num": 42,
+      "folder": "42-directive"
+    }
+  ]
+}

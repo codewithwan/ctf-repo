@@ -1,0 +1,173 @@
+SMS EXPORT - FORENSIC EXTRACTION
+Device Owner: Arif Khan (+8801912345678)
+Extraction Method: Logical Acquisition - SMS Database
+Date Range: 2024-01-05 to 2024-05-31
+Total Messages: 40
+Collector Identifier: "Sumon" (no last name given)
+Total Owed (per collector records): $15,000.00 USD at 15% monthly interest
+Cross-reference: 2024-05-09 23:00 message references an ATM withdrawal at
+22:45 that also appears in bank_statement_2024.html on 09/05/2024 -- these
+two records cross-validate each other.
+===============================================
+
+
+[2024-01-05 10:15:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Dear client, your payment of $1,545 USD is due. Please arrange payment at your earliest convenience.
+--------------------------------
+[2024-01-12 14:30:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This is a friendly reminder that your payment is still outstanding. Kindly settle at your earliest convenience.
+--------------------------------
+[2024-01-20 11:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Good day. We have not yet received your payment for this month. Please confirm when we can expect it.
+--------------------------------
+[2024-01-28 16:45:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Please arrange payment at your earliest convenience. We would like to resolve this amicably.
+--------------------------------
+[2024-02-02 09:30:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This is your second notice. Payment required immediately.
+--------------------------------
+[2024-02-08 13:15:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We have not received any response from you. Please contact us today.
+--------------------------------
+[2024-02-14 17:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Your account is now significantly overdue. This matter needs your urgent attention.
+--------------------------------
+[2024-02-19 10:45:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We expect a response within 48 hours. Please do not ignore this message.
+--------------------------------
+[2024-02-24 15:20:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This is becoming a serious matter. Please call our office directly.
+--------------------------------
+[2024-02-29 19:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: No response received. We will be forced to escalate this matter.
+--------------------------------
+[2024-03-04 09:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Our collection team will visit your residence this week if payment is not received.
+--------------------------------
+[2024-03-08 12:30:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Failure to pay will result in legal action against you.
+--------------------------------
+[2024-03-12 14:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We are aware of your employment at FirstBangla Bank. This will not remain private for long.
+--------------------------------
+[2024-03-15 18:20:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: You have ignored multiple notices. This is your last opportunity to resolve this quietly.
+--------------------------------
+[2024-03-19 20:10:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We know your daily schedule. Please do not test our patience further.
+--------------------------------
+[2024-03-22 11:40:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Payment must be received by end of this month or we proceed with next steps.
+--------------------------------
+[2024-03-26 16:55:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This silence is not acceptable. Respond immediately.
+--------------------------------
+[2024-03-30 21:30:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Final week of this month. No further extensions will be given.
+--------------------------------
+[2024-04-02 08:45:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We know where your son is being treated. Do not make us come there.
+--------------------------------
+[2024-04-06 13:10:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Pay immediately or we contact your employer directly.
+--------------------------------
+[2024-04-09 17:35:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This is your final warning before we take action.
+--------------------------------
+[2024-04-12 10:20:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Our representative will visit your office tomorrow if payment is not made.
+--------------------------------
+[2024-04-16 19:50:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: You cannot avoid us forever. This debt does not disappear.
+--------------------------------
+[2024-04-19 12:15:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We have your family's routine mapped out. Do the right thing and pay.
+--------------------------------
+[2024-04-22 21:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This is beyond a warning now. We are prepared to escalate.
+--------------------------------
+[2024-04-25 09:40:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Your hospital payments mean nothing to us. Our money comes first.
+--------------------------------
+[2024-04-28 18:25:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: One more missed week and this becomes something you cannot undo.
+--------------------------------
+[2024-04-30 22:05:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: April is over. You have failed every deadline given to you.
+--------------------------------
+[2024-05-01 08:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Pay today. No more warnings.
+--------------------------------
+[2024-05-03 14:30:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Still nothing from you. This is unacceptable.
+--------------------------------
+[2024-05-05 19:10:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We have filed a complaint with HR at your workplace.
+--------------------------------
+[2024-05-07 11:20:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: You are running out of options. Call me back.
+--------------------------------
+[2024-05-09 23:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: I can see you used the ATM at 22:45. Why withdraw cash but not pay me?
+--------------------------------
+[2024-05-10 09:15:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Call me. Today. Final opportunity.
+--------------------------------
+[2024-05-10 20:40:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: This is your absolute last chance before things change.
+--------------------------------
+[2024-05-11 12:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Arif. Answer your phone.
+--------------------------------
+[2024-05-13 10:30:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Arif. Call me immediately.
+--------------------------------
+[2024-05-15 15:45:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Your number is not responding.
+--------------------------------
+[2024-05-20 11:10:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: We are proceeding with legal action.
+--------------------------------
+[2024-05-31 16:00:00] FROM: +8801711998877
+TO: +8801912345678
+MESSAGE: Final notice before court filing.
+--------------------------------

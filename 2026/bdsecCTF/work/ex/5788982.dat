@@ -1,0 +1,15 @@
+External Connectivity Test Log
+================================
+Purpose: Weekly firewall verification
+Admin: IT Department
+
+2024-05-07 02:15:00 — Testing external IPs
+ping 8.8.8.8 — OK (Google DNS)
+ping 1.1.1.1 — OK (Cloudflare)
+ping 185.220.101.47 — OK (External node - firewall test)
+ping 45.33.32.156 — OK (Secondary test node)
+curl -k https://185.220.101.47 — Connection refused (expected)
+
+Result: Firewall blocking inbound correctly
+Outbound connectivity: Normal
+Status: PASS

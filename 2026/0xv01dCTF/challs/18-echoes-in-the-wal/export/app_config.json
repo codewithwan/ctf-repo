@@ -1,0 +1,9 @@
+{
+  "package": "io.void.nightjar",
+  "journal_mode": "WAL",
+  "attachment_cipher": "AES-256-GCM",
+  "key_material_utf8": "android_id:thread_id:revision:committed_ms",
+  "key_digest": "SHA-256",
+  "aad_utf8": "thread=<thread_id>;revision=<revision>",
+  "nonce_storage": "attachments.nonce"
+}

@@ -1,0 +1,15 @@
+services:
+  napaseke:
+    build: .
+    init: true
+    ports:
+      - "30012:30012"
+    environment:
+      - EXTERNAL=napaseke-ju6q7nbu.avitoctf.ru:30012
+      - INVITE_CODE=9Nec8fpXr4jdG7W5Y9bT5g
+    volumes:
+      - napaseke_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  napaseke_data:

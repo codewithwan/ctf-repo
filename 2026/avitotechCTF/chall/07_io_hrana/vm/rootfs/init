@@ -1,0 +1,14 @@
+#!/bin/busybox sh
+/bin/busybox mount -t proc none /proc 2>/dev/null
+/bin/busybox mount -t sysfs none /sys 2>/dev/null
+/bin/busybox mount -t devtmpfs none /dev 2>/dev/null
+exec >/dev/console 2>&1
+echo "=====INIT_RUNNING====="
+echo "os-release:"; /bin/busybox cat /etc/os-release 2>/dev/null | head -3
+echo "=====STRACE_START====="
+printf 'testinput\n' | strace -f -e trace=openat,readlinkat,io_uring_setup,io_uring_enter -s 200 /io_hrana.elf 2>/tmp/s.out
+echo "=====EXIT=$?====="
+grep -aE "openat|readlink|io_uring" /tmp/s.out | grep -avE "ld-musl|/lib/|/usr/lib|locale|gconv|ld.so.cache|apk|/proc/self/exe|strace" | head -60
+echo "=====LAST20====="
+/bin/busybox tail -20 /tmp/s.out
+/bin/busybox poweroff -f

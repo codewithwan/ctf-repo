@@ -1,0 +1,4 @@
+Ciphertext (hex):
+86c79f749f93c4ba87b67cb289c17ca3b8c8bd77b5c2b175bcc3c6
+
+Hint: The key is a common 4-letter word.

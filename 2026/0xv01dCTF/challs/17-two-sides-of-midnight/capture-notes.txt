@@ -1,0 +1,5 @@
+Incident INC-2714
+        A failed inline appliance was bracketed by two passive taps. The exported PCAPNG merges both interfaces.
+        tap-ingress is before the appliance; tap-egress is after it. Tap clocks were synchronized within 1 ms.
+        The appliance is suspected of modifying one binary upload while preserving its TCP sequence space.
+        Background uploads were active. The merged export may include duplicate observations and retransmissions.

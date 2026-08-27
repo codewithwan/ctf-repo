@@ -1,0 +1,64 @@
+{
+  "fetchedAt": "2026-07-18T07:35:00Z",
+  "platform": "https://ctf-2026.ctf-platform.xyz",
+  "account": { "username": "TahuCryptsi", "email": "codewithwan@gmail.com", "userId": "BfIgi3xF0of45jQ1Lcrbphqc0C3VFZho", "teamId": "daaahmqapkf1eecy378mn9mm" },
+  "config": {
+    "ctfName": "CTF 2026 (Athena CTF 2k26)",
+    "startDate": "2026-07-18T06:00:00.000Z",
+    "freezeDate": "2026-07-19T06:00:00.000Z",
+    "endDate": "2026-07-20T06:00:00.000Z",
+    "flagPrefix": "athena",
+    "teamModeEnabled": true,
+    "challengeInstancesEnabled": true
+  },
+  "categories": ["CRYPTO","FORENSICS","INFRA","Misc","OSINT","OT","PWN","REV","WEB","Welcome"],
+  "challenges": [
+    { "id": "logl2qltsjlmp8grlt0topyy", "title": "Welcome", "category": "Welcome", "difficulty": "easy", "points": 10, "solveCount": 180, "solved": true,
+      "description": "Welcome to Athena CTF 2k26! athena{athena_ctf_2026_1s_l1ve}",
+      "files": [], "hints": [], "needsInstance": false },
+
+    { "id": "bqkfpht2tu0izr43fe76nc4l", "title": "Narrow DES", "category": "CRYPTO", "difficulty": "impossible", "points": 500, "solveCount": 0, "solved": false,
+      "description": "A slender DES-like Feistel cipher was built for 48-bit blocks and a 64-bit key by a mad mad mad scientist named Rahul Kansal. The organizer runs the service; players use a client to query the oracle and recover the key.",
+      "files": [ { "filename": "narrow_des_server.py", "size": 2739, "id": "xgcgcs07pf4xtrt13d0kradnf0" } ],
+      "hints": [ { "penaltyPoints": 300 } ], "needsInstance": true, "maxAttempts": 10 },
+
+    { "id": "kdn8kvyl4uldzmkbgdcy6v35", "title": "Net MITM TLS", "category": "INFRA", "difficulty": "easy", "points": 100, "solveCount": 0, "solved": false,
+      "description": "A background service in the target environment periodically transmits a secret flag over TLS to https://net-mitm.local:4443/submit. Connect to the shell service, set up a rogue TLS server with a forged certificate matching the expected domain hostname, and intercept the secret.",
+      "files": [], "hints": [ { "penaltyPoints": 60 } ], "needsInstance": true, "maxAttempts": 10 },
+
+    { "id": "ao4bhajgzd3k5kwt5naydq1n", "title": "Session Slip", "category": "WEB", "difficulty": "medium", "points": 175, "solveCount": 36, "solved": false,
+      "description": "A small internal dashboard exposes a homegrown session gateway. Find out how its custom session format is built, forge your way in, and see what else it lets you reach.",
+      "files": [], "hints": [ { "penaltyPoints": 100 } ], "needsInstance": true },
+
+    { "id": "blnme853xzmuw6mau3is8hyi", "title": "Meridian Ladder", "category": "WEB", "difficulty": "hard", "points": 350, "solveCount": 31, "solved": false,
+      "description": "**Meridian Ladder** is an automated fixed-income \"bond ladder\" robo-advisor. Customers open an account and the platform builds them a ladder of instruments that mature on a staggered schedule. Depending on the ladder's policy, a customer can also *unwind* a ladder early to free up capital. A staging build is live:",
+      "files": [], "hints": [ { "penaltyPoints": 200 } ], "needsInstance": true },
+
+    { "id": "kt2gghqha2ajkdomfxyt4coa", "title": "USBStorage Residue", "category": "FORENSICS", "difficulty": "medium", "points": 200, "solveCount": 59, "solved": false,
+      "description": "A USB mass-storage session was captured while a private file was written to a removable drive, replaced with a newer copy, and then removed. The drive is gone; the capture is all that survived. The frames use a link type no dissector will touch, so you are on your own with the bytes. Reconstruct the drive's contents from the write traffic and recover the deleted file.",
+      "files": [ { "filename": "usbstorage_rotated.pcap.gz", "size": 16902, "id": "u7mqfon6x7tl14y8nyht16uuf0" } ],
+      "hints": [ { "penaltyPoints": 50 }, { "penaltyPoints": 50 }, { "penaltyPoints": 30 }, { "penaltyPoints": 30 } ], "needsInstance": false },
+
+    { "id": "lx4q4wnmp5l2hxt1ij4xt9rp", "title": "Advance Paper Leak", "category": "OSINT", "difficulty": "easy", "points": 50, "solveCount": 9, "solved": false,
+      "description": "We are claming the paper leak. leak code #Athenafl",
+      "files": [], "hints": [ { "penaltyPoints": 40 }, { "penaltyPoints": 10 } ], "needsInstance": false },
+
+    { "id": "qq4n7wjdsct5rw77n80yil84", "title": "Logic Puzzle", "category": "REV", "difficulty": "easy", "points": 100, "solveCount": 96, "solved": false,
+      "description": "A stripped binary was recovered with no source code available. It takes a single multi-digit integer argument and stays silent for every value but one. Reverse engineer the logic inside, work out the integer it wants, and recover the flag. Usage: ./logic_puzzle.bin <integer>",
+      "files": [ { "filename": "logic_puzzle.bin", "size": 14464, "id": "l6qoslmeoo7q6v00jjh9jg6kf0" } ],
+      "hints": [ { "penaltyPoints": 20 }, { "penaltyPoints": 25 }, { "penaltyPoints": 30 } ], "needsInstance": false },
+
+    { "id": "vtgtsnqmf523bz26ln3ublx9", "title": "Talib", "category": "OSINT", "difficulty": "easy", "points": 100, "solveCount": 8, "solved": false,
+      "description": "A taliban leader received a video and now he needs to know the place and time of the incident. Video (encoded blob in prompt): BQS?8F#ks-GB\\6`H#IhIF^eo7@rH3;G@>T'BKpZ':01;:GVh!HAQ!.fF?MN>Er  Submit athena{location name_YYYY-MM-DD} using the English location name and ISO date.",
+      "files": [], "hints": [ { "penaltyPoints": 50 }, { "penaltyPoints": 50 } ], "needsInstance": false },
+
+    { "id": "c7ptg15ym3kbieerdxrn2rei", "title": "Query Mirage", "category": "INFRA", "difficulty": "medium", "points": 120, "solveCount": 27, "solved": false,
+      "description": "A staging notes portal was left open. Find the SQL injection point on the search endpoint, bypass the filters, enumerate the database schema, and extract the private record.",
+      "files": [], "hints": [ { "penaltyPoints": 30 }, { "penaltyPoints": 40 } ], "needsInstance": true },
+
+    { "id": "ipqpqz49mq23yeuyac56n9jy", "title": "Mailroom Echo", "category": "FORENSICS", "difficulty": "easy", "points": 50, "solveCount": 122, "solved": false,
+      "description": "Internal Affairs flagged a helpdesk analyst for quietly routing data out of the building inside dull-looking quarterly summary notes. Before the account could be locked, the support mailbox was quarantined and a single message from the reply thread was exported for review. The body reads like ordinary desk chatter and steers you away from anything useful -- but this is a mail message, and the interesting part rarely rides in the body",
+      "files": [ { "filename": "mailroom_echo.eml", "size": 979, "id": "0qsuqd7qgmylugxhviwxe4sqf0" } ],
+      "hints": [], "needsInstance": false }
+  ]
+}

@@ -1,0 +1,13 @@
+/srv/app
+├── uploads/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── private/
+│   └── private_flag.txt
+├── logs/
+│   └── upload.log
+├── config.py
+├── upload_handler.py
+├── sanitizer.py
+└── __init__.py

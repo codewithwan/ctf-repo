@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+Created-By: 25.0.4-ea (Debian)
+SHA-256-Digest-Manifest: ut27TlrWFq9LZAF7uTjo25crKDCJDW1PWXTdINNba6A=
+SHA-256-Digest-Manifest-Main-Attributes: J96ZN7HQuDliTphbRPNGi88AvGiv0lD
+ ozysXWMG38ls=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: zOGMRurJNPuhqHJ50u8cI1jFiIadMNIzCwDuth7y68I=
+
+Name: assets/signal.enc
+SHA-256-Digest: LInV09v+ncRjuTJ5QHD7hj5fAcv59X0gCHCknARCnlk=
+
+Name: resources.arsc
+SHA-256-Digest: eAMiM3vnjtNeMtUF8Jjqfqaemuei1X5/p93/4hcISEg=
+
+Name: classes.dex
+SHA-256-Digest: nKlcwHFPQ0fFdNAGqZnKkiCiHuTx6LMOUlYCxB+JApk=
+

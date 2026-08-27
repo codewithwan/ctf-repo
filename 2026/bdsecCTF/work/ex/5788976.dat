@@ -1,0 +1,24 @@
+Access Approvals Log — May 2024
+Director: Salim Uddin
+
+[APPROVED] 2024-03-16
+  Employee: Arif Khan (EMP-2024-0847)
+  Resource: TREASURY_COLD_WALLET_PANEL
+  Duration: May 1-15, 2024
+  Type: ADMIN_OVERRIDE (single auth enabled)
+  Reason: Annual compliance audit
+  Notes: Standard procedure. Approved as requested.
+
+[APPROVED] 2024-04-02
+  Employee: Tania Akter
+  Resource: REPORT_SYSTEM
+  Duration: April-June 2024
+  Type: Standard read access
+  Reason: Q2 reporting requirements
+
+[APPROVED] 2024-04-15
+  Employee: IT Admin
+  Resource: SERVER_MAINTENANCE
+  Duration: May 7, 02:00-04:00 AM
+  Type: Emergency maintenance window
+  Reason: Database optimization

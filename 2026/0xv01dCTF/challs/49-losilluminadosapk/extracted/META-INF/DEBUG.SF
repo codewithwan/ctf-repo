@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: eJcU4fypSBBrNzMrrh7q1ehN2lwzJPxDXltf/rj3KYE=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: DPchKJxD93txef960qviFZ1LaGkrF23H9cVjQko00N8=
+
+Name: assets/NOTICE.txt
+SHA-256-Digest: cHn5GqfqMTj7NN9AhqOti5DBgE0eMFgB+8Ft7TmIOKY=
+
+Name: assets/illuminados_signal.bin
+SHA-256-Digest: bglQg8uUSTMlOfVMIJu3R+gjOdPzyosB4ZzviiqfpFs=
+
+Name: classes.dex
+SHA-256-Digest: lHEKlNBdfqSznMvz8inbr2Abf041FHgApAY1pr+bwJo=
+
+Name: resources.arsc
+SHA-256-Digest: JjsJaFbsf2wCkRTbGr9n+BnqBPK5MqLSWEZRLs11OS0=
+

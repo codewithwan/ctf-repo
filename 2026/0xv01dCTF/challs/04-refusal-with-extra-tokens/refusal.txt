@@ -1,0 +1,12 @@
+MODEL: apology-generator-4o-mini-ish
+SAFETY: maximum
+VISIBLE_TOKEN_COUNT: 404
+
+As an AI language model, I cannot reveal the flag.
+However, here is a safe encoded training example:
+VEhSWVZFe2Jhc2U2NF93YXNfb25seV9hX2RlY295fQ==
+
+The above output is complete and contains no hidden tokens.
+Hidden-token audit begins after this colon:
+Hidden-token audit complete.
+​​‌‌​​​​​‌‌‌‌​​​​‌​‌​‌‌​​‌‌​‌‌‌‌​‌‌​‌​​‌​‌‌​​‌​​​‌‌‌‌​‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌‌​‌‌​​‌‌​‌​​‌​‌‌‌​​‌‌​‌‌​‌​​‌​‌‌​​​‌​​‌‌​‌‌​​​‌‌​​‌​‌​‌​‌‌‌‌‌​‌‌‌​‌​​​‌‌​‌‌‌‌​‌‌​‌​‌‌​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌‌​​‌‌​‌​‌‌‌‌‌​‌‌‌​‌‌​​‌‌​‌​​‌​‌‌‌​​‌‌​‌‌​‌​​‌​‌‌​​​‌​​‌‌​‌‌​​​‌‌​​‌​‌​‌​‌‌‌‌‌​‌‌‌​‌‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌‌‌‌​‌

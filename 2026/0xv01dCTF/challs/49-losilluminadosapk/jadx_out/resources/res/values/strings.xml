@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LosIlluminados</string>
+    <string name="monitor_key">0xV0ID{static_strings_wont_save_you}</string>
+    <string name="bundle_mode">illuminados_signal.bin</string>
+    <string name="debug_token">0xV0ID{illuminados_legacy_key_is_fake}</string>
+    <string name="bundle_hint">HMAC-SHA256 + transform</string>
+</resources>

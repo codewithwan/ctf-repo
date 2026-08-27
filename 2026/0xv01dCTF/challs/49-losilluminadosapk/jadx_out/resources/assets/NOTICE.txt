@@ -1,0 +1,8 @@
+LosIlluminados Notification Pipeline v2.1
+Decommissioned: 2024-11-01
+
+Decoy: 0xV0ID{the_notice_file_is_a_trap}
+
+This interceptor has been retired. All signal routing
+has been migrated to the authenticated bundle protocol.
+Contact: illuminados-ops@internal.void

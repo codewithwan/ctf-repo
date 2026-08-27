@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2768236 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="12730424893" visible="true" version="1" changeset="164538572" timestamp="2025-04-05T07:25:23Z" user="trickypr" uid="13637065" lat="-35.2753523" lon="149.1202557"/>
+ <node id="12730424894" visible="true" version="2" changeset="182229644" timestamp="2026-05-05T03:10:55Z" user="Robuster" uid="6575994" lat="-35.2751926" lon="149.1204032">
+  <tag k="door" v="sliding"/>
+  <tag k="entrance" v="yes"/>
+  <tag k="level" v="1"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="12730424895" visible="true" version="1" changeset="164538572" timestamp="2025-04-05T07:25:23Z" user="trickypr" uid="13637065" lat="-35.2752133" lon="149.1203822"/>
+ <way id="1374936028" visible="true" version="1" changeset="164538572" timestamp="2025-04-05T07:25:23Z" user="trickypr" uid="13637065">
+  <nd ref="12730424893"/>
+  <nd ref="12730424895"/>
+  <nd ref="12730424894"/>
+  <tag k="highway" v="footway"/>
+ </way>
+</osm>

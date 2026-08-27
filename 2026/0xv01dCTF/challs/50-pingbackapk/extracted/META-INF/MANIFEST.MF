@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: 25.0.4-ea (Debian)
+
+Name: AndroidManifest.xml
+SHA-256-Digest: J0wagCw5QXbh4WfP/vSIZZqEpyb9vA7dr+lDyaEzvtM=
+
+Name: assets/signal.enc
+SHA-256-Digest: RKxx65C8vx8xTiEFPR7wcN7buhBBtslpKNxKvZdj3OU=
+
+Name: resources.arsc
+SHA-256-Digest: vcp5q2vdFrzP+8GQqkj0EM5AcosASCH4F7jtncuZOyM=
+
+Name: classes.dex
+SHA-256-Digest: a78N04FXMfFgAf4BU/rjgJpUSV839a8ouLyvpySOVZQ=
+

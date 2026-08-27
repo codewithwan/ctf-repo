@@ -1,0 +1,10 @@
+Case: VOID-2026-0814
+Host: NOVA-FIN-044
+User: THRYVE\nova0x
+
+A finance workstation produced a ransom note without an obvious encrypted-file set.
+You have endpoint telemetry, filesystem artifacts, memory strings, network logs, and
+two encrypted blobs recovered from the suspect host.
+
+Recover the attack chain and submit the stage flags.
+Flag format: 0xV01D{...}

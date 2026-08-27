@@ -1,0 +1,16 @@
+services:
+  cdn-hlp:
+    build: ./src
+    ports:
+      - "8080:8080"
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - TASK=https://filter-srv-oigqw6hh.avitoctf.ru/
+    restart: unless-stopped
+    stop_grace_period: 0s
+    pids_limit: 100
+    ulimits:
+      core: 0
+    cpus: 1
+    mem_limit: 256M

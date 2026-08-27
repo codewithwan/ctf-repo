@@ -1,0 +1,13 @@
+5785509|.bash_history
+5785186|.wallet_note.txt
+5785187|.confession.enc
+5785561|.vboxclient-clipboard-tty2-control.pid
+5786843|.python_history
+5785633|.vboxclient-hostversion-tty2-control.pid
+5785634|.vboxclient-seamless-tty2-control.pid
+5786844|.zsh_history
+5786845|.lesshst
+5785637|.vboxclient-draganddrop-tty2-control.pid
+5786846|.viminfo
+5767683|.nano_history
+5785639|.vboxclient-vmsvga-session-tty2-control.pid

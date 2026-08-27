@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 0xV01D challenge builder
+Name: SplitOracle-xxhdpi
+SHA-256-Digest: 01a21babddc29234ceccec3e524a84dace97395dc297904897049eaf76724cba

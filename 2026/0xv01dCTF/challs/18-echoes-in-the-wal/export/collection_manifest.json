@@ -1,0 +1,22 @@
+{
+  "app_config.json": {
+    "sha256": "8b1fff0079564e74048d33e3ad330d02561e2d11c2e6f0b038d6f1633146df15",
+    "size": 300
+  },
+  "device.xml": {
+    "sha256": "66f2f3829a1c72cf4a487c0dcea25c6287acc45692dcd0af531f91fffe29250e",
+    "size": 260
+  },
+  "nightjar.db": {
+    "sha256": "911d5213f37a10c2b302486025d69669592a4b20f4639c8535834b0ece2e0300",
+    "size": 24576
+  },
+  "nightjar.db-wal": {
+    "sha256": "1d7d9210487114c64986867468eef7846f1b001414b920235c56185354b88183",
+    "size": 98912
+  },
+  "notification_history.log": {
+    "sha256": "7ca7ab0fd80d3961f20ec0a731b966d65a239d194ecc3becb59446157d31f2d5",
+    "size": 377
+  }
+}

@@ -1,0 +1,4 @@
+TimeCreated,NewProcessName,CreatorProcessName,SubjectUserName,CommandLine
+2026-08-14T18:09:04.000Z,C:\Windows\System32\mshta.exe,C:\Windows\explorer.exe,nova0x,mshta.exe C:\Users\nova0x\Downloads\invoice_0814.lnk
+2026-08-14T18:09:26.000Z,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\System32\mshta.exe,nova0x,powershell -nop -w hidden -ep bypass -enc ...
+2026-08-14T18:11:16.000Z,C:\Windows\System32\vssadmin.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,nova0x,vssadmin delete shadows /all /quiet

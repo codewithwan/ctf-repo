@@ -1,0 +1,11 @@
+Process map from the crash collector:
+
+pid  name               base      size    xor tag
+111  systemd            0x7f1000  0x1200  tag=STEDY
+482  explorer           0x7f4000  0x2400  tag=CLIP9
+901  photo_recover      0x8a0000  0x3c00  tag=DR1FT
+1044 crash_handler      0x900000  0x1800  tag=PGOFF
+
+Each process scrambled its resident buffer with its own tag (a repeating XOR key).
+The buffer of interest was mapped across three pages before the dump was written;
+identify which process owns those pages, then apply its tag across the whole buffer.

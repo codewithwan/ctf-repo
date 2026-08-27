@@ -1,0 +1,20 @@
+Weekly Security Checklist — IT Department
+==========================================
+IT Manager: System Administrator
+Week of: May 6-10, 2024
+
+[x] Check firewall rules
+[x] Review failed login attempts
+[x] Scan for unauthorized open ports
+[x] Verify backup completion
+[x] Test external connectivity (ping test)
+[x] Review treasury access logs (routine)
+[ ] Update SSL certificates (due May 20)
+[ ] Patch management review
+
+Notes:
+  May 7, 02:00 AM — Emergency DB optimization completed
+  Contacted by Salim Uddin to perform server room access
+  for Arif Khan after hours on May 9 (audit work)
+  May 10 — Security alert triggered by arif.khan account
+  Escalated immediately to security division

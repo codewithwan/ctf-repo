@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <device>
+          <setting name="android_id" value="a91f32d06c74be18" />
+          <setting name="timezone" value="Asia/Amman" />
+          <setting name="clock_source" value="network" />
+        </device>

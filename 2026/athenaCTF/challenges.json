@@ -1,0 +1,529 @@
+{
+  "fetchedAt": "2026-07-18T13:36:28Z",
+  "account": "TahuCryptsi",
+  "count": 24,
+  "challenges": [
+    {
+      "id": "mjw2lrwj4fae3qh7a5jvm2tq",
+      "title": "Upload Lantern",
+      "category": "INFRA",
+      "difficulty": "hard",
+      "points": 350,
+      "solveCount": 3,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A file upload feature was exported from a staging branch after a sanitization change. A live instance of the staging service is provided: preview stored uploads via `GET /view?name=`. Get the flag.",
+      "files": [
+        {
+          "filename": "upload_handler.py",
+          "size": 1316
+        },
+        {
+          "filename": "sanitizer.py",
+          "size": 925
+        },
+        {
+          "filename": "config.py",
+          "size": 581
+        },
+        {
+          "filename": "tree.txt",
+          "size": 296
+        },
+        {
+          "filename": "README.md",
+          "size": 1094
+        }
+      ],
+      "hints": [
+        75,
+        100,
+        125
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "g4kq0ffr2pmvegx3deoz8zp4",
+      "title": "Small Root",
+      "category": "CRYPTO",
+      "difficulty": "easy",
+      "points": 100,
+      "solveCount": 17,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Deep in the Sahar's jungle, a jungle so dense that satellites lose signal between the canopies. A lone owl carries a secret dispatch between two resistance cells. Intercepted mid-flight, the message and the parameters used to seal it are now in your hands.The sender was careless. They chose a method so weak that the night air itself could unravel it. Everything you need is in `pub.txt`.Recover what the owl was carrying. The jungle does not wait.",
+      "files": [
+        {
+          "filename": "pub.txt",
+          "size": 5391
+        }
+      ],
+      "hints": [
+        35,
+        35
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "yxch20mt8cv97ap3u2tu4tud",
+      "title": "Table Stakes",
+      "category": "REV",
+      "difficulty": "medium",
+      "points": 175,
+      "solveCount": 11,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A small binary was recovered from a compromised endpoint. It checks a candidate flag and reports whether it is correct: ``` ./challenge.bin 'athena{...}' ``` It will not reveal the flag on its own — the answer is only ever verified, never printed. Reverse engineer to recover the embedded payload.",
+      "files": [
+        {
+          "filename": "challenge.bin",
+          "size": 14592
+        }
+      ],
+      "hints": [
+        50,
+        50,
+        50
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "haq6mjbyo4fq8rt1b8btyd07",
+      "title": "Where am i",
+      "category": "OSINT",
+      "difficulty": "medium",
+      "points": 175,
+      "solveCount": 0,
+      "hasBlood": false,
+      "locked": false,
+      "description": "You are an ancient archaeologist studying a photograph of an artifact. Determine where it was discovered—the coordinates of the find site. Download the image and submit the location as `athena{latitude,longitude}` (decimal degrees, three decimal places, as in `athena{174.606,141.526}`).",
+      "files": [
+        {
+          "filename": "Whereami.jpeg",
+          "size": 49969
+        }
+      ],
+      "hints": [
+        100,
+        70
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "niku1h9n492wnpoup165r3r0",
+      "title": "Cache Footprint",
+      "category": "FORENSICS",
+      "difficulty": "medium",
+      "points": 200,
+      "solveCount": 15,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A browser cache was carved from a kiosk image after an incident. The exported SQLite database contains browsing history, downloads, cookies, form data, and session storage. The operator cleaned up after themselves, so the download that matters is no longer in the downloads table — but a delete is not an erase. Recover the missing record, work out how its payload was exported, and decode it to recover the flag. The data URIs still sitting in the database are not the answer.",
+      "files": [
+        {
+          "filename": "browser_history.sqlite",
+          "size": 24576
+        }
+      ],
+      "hints": [
+        50,
+        50,
+        50
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "mrsi8e70oonxdtf5yb5pm5dg",
+      "title": "Simple Calculator",
+      "category": "REV",
+      "difficulty": "hard",
+      "points": 375,
+      "solveCount": 6,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Recovered from a compromised handset: a plain-looking \"Simple Calculator\" that field intelligence links to a rogue cell of CIA hackers. Word is it doubles as a spy's burner tool -- a piece of quiet James Bond tradecraft hiding in plain sight on the home screen. To anyone watching, it just adds numbers. To the operator who knows the right moves, it gives up a secret. You've been handed the release APK. Decompile it, work out what it's really doing behind the arithmetic, and coax it into revealing what it was built to protect. Not everything inside is what it looks like. Submit the flag in the form `athena{...}`.",
+      "files": [
+        {
+          "filename": "illogical.apk",
+          "size": 960355
+        }
+      ],
+      "hints": [
+        75,
+        100,
+        150
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "logl2qltsjlmp8grlt0topyy",
+      "title": "Welcome",
+      "category": "Welcome",
+      "difficulty": "easy",
+      "points": 10,
+      "solveCount": 332,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Welcome to Athena CTF 2k26!athena{athena_ctf_2026_1s_l1ve}",
+      "files": [],
+      "hints": [],
+      "needsInstance": false
+    },
+    {
+      "id": "uwvy9g6pvklwpik4rol572kj",
+      "title": "Heap Smash v1",
+      "category": "PWN",
+      "difficulty": "easy",
+      "points": 150,
+      "solveCount": 92,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Heap exploitation warmup: the flag is loaded into memory and freed at startup. Reclaim the uninitialized memory to leak the flag. Connect to the service on port 1337 and use the provided commands to allocate, write, read, and delete notes. Commands: - `A ` allocate - `W ` write - `R ` read - `D ` delete - `E` exit",
+      "files": [],
+      "hints": [
+        80
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "kdn8kvyl4uldzmkbgdcy6v35",
+      "title": "Net MITM TLS",
+      "category": "INFRA",
+      "difficulty": "easy",
+      "points": 100,
+      "solveCount": 127,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A background service in the target environment periodically transmits a secret flag over TLS to https://net-mitm.local:4443/submit. Connect to the shell service, set up a rogue TLS server with a forged certificate matching the expected domain hostname, and intercept the secret.",
+      "files": [],
+      "hints": [
+        60
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "i7mfma13mx94jhak6r47qj8h",
+      "title": "Classy who?",
+      "category": "PWN",
+      "difficulty": "hard",
+      "points": 400,
+      "solveCount": 57,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Exploit the note-taking service to read the flag from stack memory. Connect to the service on port 1337. Commands: - `C idx size` — create a note at index `idx` with `size` bytes. - `W idx off len` — write `len` raw bytes into note `idx` at offset `off`. - `R idx` — read up to 1024 bytes from note `idx`. - `D idx` — delete note `idx`. - `E` — exit. Use the service to leak a libc address, then a stack address, and read the flag out of the service's stack memory.",
+      "files": [
+        {
+          "filename": "ctf.c",
+          "size": 4360
+        }
+      ],
+      "hints": [
+        75,
+        75,
+        100,
+        125
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "ao4bhajgzd3k5kwt5naydq1n",
+      "title": "Session Slip",
+      "category": "WEB",
+      "difficulty": "medium",
+      "points": 175,
+      "solveCount": 91,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A small internal dashboard exposes a homegrown session gateway. Find out how its custom session format is built, forge your way in, and see what else it lets you reach.",
+      "files": [],
+      "hints": [
+        100
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "blnme853xzmuw6mau3is8hyi",
+      "title": "Meridian Ladder",
+      "category": "WEB",
+      "difficulty": "hard",
+      "points": 350,
+      "solveCount": 84,
+      "hasBlood": true,
+      "locked": false,
+      "description": "**Meridian Ladder** is an automated fixed-income \"bond ladder\" robo-advisor. Customers open an account and the platform builds them a ladder of instruments that mature on a staggered schedule. Depending on the ladder's policy, a customer can also *unwind* a ladder early to free up capital. A staging build is live:",
+      "files": [],
+      "hints": [
+        200
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "kt2gghqha2ajkdomfxyt4coa",
+      "title": "USBStorage Residue",
+      "category": "FORENSICS",
+      "difficulty": "medium",
+      "points": 200,
+      "solveCount": 146,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A USB mass-storage session was captured while a private file was written to a removable drive, replaced with a newer copy, and then removed. The drive is gone; the capture is all that survived. The frames use a link type no dissector will touch, so you are on your own with the bytes. Reconstruct the drive's contents from the write traffic and recover the deleted file.",
+      "files": [
+        {
+          "filename": "usbstorage_rotated.pcap.gz",
+          "size": 16902
+        }
+      ],
+      "hints": [
+        50,
+        50,
+        30,
+        30
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "lx4q4wnmp5l2hxt1ij4xt9rp",
+      "title": "Advance Paper Leak",
+      "category": "OSINT",
+      "difficulty": "easy",
+      "points": 50,
+      "solveCount": 52,
+      "hasBlood": true,
+      "locked": false,
+      "description": "We are claming the paper leak. leak code #Athenafl",
+      "files": [],
+      "hints": [
+        40,
+        10
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "qq4n7wjdsct5rw77n80yil84",
+      "title": "Logic Puzzle",
+      "category": "REV",
+      "difficulty": "easy",
+      "points": 100,
+      "solveCount": 189,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A stripped binary was recovered with no source code available. It takes a single multi-digit integer argument and stays silent for every value but one. Reverse engineer the logic inside, work out the integer it wants, and recover the flag. Usage: `./logic_puzzle.bin `",
+      "files": [
+        {
+          "filename": "logic_puzzle.bin",
+          "size": 14464
+        }
+      ],
+      "hints": [
+        20,
+        25,
+        30
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "xa5a8atqddyq7mb5zdk8mf94",
+      "title": "Split Timeline",
+      "category": "FORENSICS",
+      "difficulty": "hard",
+      "points": 400,
+      "solveCount": 97,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A finance workstation (WS-0419) is suspected of staging data to a removable drive. It was powered down before anyone could capture it live, so triage handed you three raw artifacts: the volume's `$MFT`, the `$UsnJrnl:$J` change journal, and `setupapi.dev.log`. Nothing has been normalised or pre-parsed — `mft.bin` and `usnjrnl.bin` are byte-for-byte extracts. Chances are more than one removable drive was attached that morning, and only one of them matters. Whoever staged the data hid it, cleaned up after themselves, and made an effort to blend the leftovers into the surrounding file activity. Hoping they did not succeed completely, Reconstruct what left the machine.",
+      "files": [
+        {
+          "filename": "mft.bin",
+          "size": 37888
+        },
+        {
+          "filename": "usnjrnl.bin",
+          "size": 5408
+        },
+        {
+          "filename": "setupapi.dev.log",
+          "size": 7232
+        }
+      ],
+      "hints": [
+        75,
+        100,
+        175
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "vtgtsnqmf523bz26ln3ublx9",
+      "title": "Talib",
+      "category": "OSINT",
+      "difficulty": "easy",
+      "points": 100,
+      "solveCount": 59,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A taliban leader received a video and now he needs to know the place and time of the incident. Video: BQS?8F#ks-GB\\6`H#IhIF^eo7@rH3;G@>T'BKpZ':01;:GVh!HAQ!.fF?MN>Er Submit `athena{location name_YYYY-MM-DD}` using the English location name and ISO date.",
+      "files": [],
+      "hints": [
+        20,
+        30
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "xyafiixbnwdlnu5l811nu59x",
+      "title": "Tiny ECC Tweak",
+      "category": "CRYPTO",
+      "difficulty": "medium",
+      "points": 150,
+      "solveCount": 146,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A whistleblower inside the **Cipher Syndicate** managed to exfiltrate a single log file before going dark.The file contains two authenticated transmissions signed by the Syndicate's central command node, along with an encrypted payload believed to hold the access code to their next operation.Intelligence suggests the signing system suffered a silent flaw: a broken random number generator. Anyone who spots the anomaly in the signature data can work backwards to the signing secret, and from there, crack open the payload.The log is `pub.txt`. Everything you need is inside.",
+      "files": [
+        {
+          "filename": "pub.txt",
+          "size": 743
+        }
+      ],
+      "hints": [
+        50,
+        70
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "olowxm9ytvrjq0qnijzvhvdy",
+      "title": "Global Blue Police Salute",
+      "category": "OSINT",
+      "difficulty": "hard",
+      "points": 400,
+      "solveCount": 66,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A viral image from the “Global Blue Police Salute” meme is making the rounds. Your task is to identify who created it—the artist or account behind the original post.Download the image from the artifact bundle and submit the creator’s name or username in flag format: `athena{creator-name}`.",
+      "files": [
+        {
+          "filename": "Policia.png",
+          "size": 439735
+        }
+      ],
+      "hints": [
+        75,
+        75
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "h1dv6piqiivx635qnaur66yt",
+      "title": "PCAP Secret",
+      "category": "FORENSICS",
+      "difficulty": "easy",
+      "points": 75,
+      "solveCount": 157,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Incident response pulled a tiny packet capture from a suspect jump host—`forensic_pcap_secret.pcap.gg`. Most of the traffic looks like routine DNS and HTTP noise, but analysts swear one of these connections is exfiltrating the flag to an external host. Download the capture, find the suspicious connection, and recover the hidden flag.",
+      "files": [
+        {
+          "filename": "forensic_pcap_secret.pcap.gg",
+          "size": 720
+        }
+      ],
+      "hints": [
+        10,
+        25,
+        20
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "j6j99vyuwfiagmbr9tq0myne",
+      "title": "RAM Drift",
+      "category": "FORENSICS",
+      "difficulty": "medium",
+      "points": 125,
+      "solveCount": 116,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A crash dump from an analyst workstation was captured before the system was wiped. Plain strings only show fragments, and the interesting buffer never appears in one piece. Use the memory snapshot and the process map to reconstruct the resident data, then undo the page-level transform to recover the flag.",
+      "files": [
+        {
+          "filename": "ram_dump.txt",
+          "size": 656
+        },
+        {
+          "filename": "process_map.txt",
+          "size": 559
+        }
+      ],
+      "hints": [
+        25,
+        25,
+        25
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "ptmkguk7k0fujt9g7vqf280c",
+      "title": "SCADA Firmware Drift",
+      "category": "OT",
+      "difficulty": "medium",
+      "points": 150,
+      "solveCount": 92,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A baseline audit caught one of ACME Industrial's Modbus RTU controllers running a config no engineer approved -- an intruder folded a rogue 'drift' parameter into the firmware itself. Investigators pulled the image off the compromised HMI. The controller admits drift was detected but won't reveal the value. Reverse the bootloader's config de-obfuscation routine and extract the hidden drift parameter yourself.",
+      "files": [
+        {
+          "filename": "firmware.bin",
+          "size": 10240
+        },
+        {
+          "filename": "firmware_notes.txt",
+          "size": 205
+        }
+      ],
+      "hints": [
+        40,
+        60
+      ],
+      "needsInstance": false
+    },
+    {
+      "id": "c7ptg15ym3kbieerdxrn2rei",
+      "title": "Query Mirage",
+      "category": "INFRA",
+      "difficulty": "medium",
+      "points": 120,
+      "solveCount": 85,
+      "hasBlood": true,
+      "locked": false,
+      "description": "A staging notes portal was left open. Find the SQL injection point on the search endpoint, bypass the filters, enumerate the database schema, and extract the private record.",
+      "files": [],
+      "hints": [
+        30,
+        40
+      ],
+      "needsInstance": true
+    },
+    {
+      "id": "ipqpqz49mq23yeuyac56n9jy",
+      "title": "Mailroom Echo",
+      "category": "FORENSICS",
+      "difficulty": "easy",
+      "points": 50,
+      "solveCount": 229,
+      "hasBlood": true,
+      "locked": false,
+      "description": "Internal Affairs flagged a helpdesk analyst for quietly routing data out of the building inside dull-looking quarterly summary notes. Before the account could be locked, the support mailbox was quarantined and a single message from the reply thread was exported for review.The body reads like ordinary desk chatter and steers you away from anything useful -- but this is a mail message, and the interesting part rarely rides in the body",
+      "files": [
+        {
+          "filename": "mailroom_echo.eml",
+          "size": 979
+        }
+      ],
+      "hints": [],
+      "needsInstance": false
+    }
+  ]
+}

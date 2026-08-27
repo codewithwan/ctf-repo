@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">EchoPush</string>
+  <string name="debug_flag">0xV01D{debug_strings_are_decoys}</string>
+  <string name="route_hint">key = sha256(action + ':' + label)</string>
+</resources>

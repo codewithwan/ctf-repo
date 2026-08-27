@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2"
+    android:versionName="2.0.3"
+    android:compileSdkVersion="23"
+    android:compileSdkVersionCodename="6.0-2438415"
+    package="com.pingback.app"
+    platformBuildVersionCode="23"
+    platformBuildVersionName="6.0-2438415">
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33"/>
+    <application
+        android:label="@string/app_name"
+        android:debuggable="false"
+        android:allowBackup="false">
+        <activity
+            android:name="com.pingback.app.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.pingback.app.UnlockReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.pingback.ACTION_UNLOCK"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: yw2UPzFFgKaV3Sn3L22HY4joT/Zo/H/iiz/JKjhE1J0=
+
+Name: assets/NOTICE.txt
+SHA-256-Digest: chNPrrj9FBCcjfhnIV8o64TFt+w8NXEN0ICuho8YB3U=
+
+Name: assets/illuminados_signal.bin
+SHA-256-Digest: B8pCLLUhxpixf9fBUWtKbIjCaRy8nk/oz0gw4glt1MQ=
+
+Name: classes.dex
+SHA-256-Digest: uwtYzMvMrINAf27quZOHeRTtwpO+xfUs5uEbe8kaCxA=
+
+Name: resources.arsc
+SHA-256-Digest: YRmX6zhTxxcevYdY7rI+LKNdI+aUbLEYufIspP8Cu1g=
+

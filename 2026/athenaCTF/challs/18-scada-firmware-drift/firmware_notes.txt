@@ -1,0 +1,6 @@
+Recovered firmware header details:
+- Vendor: ACME Industrial
+- Version: 3.7.1
+- StringTableOffset: 0x40
+
+Investigators recovered this binary image from the active HMI workstation of the Modbus RTU. 

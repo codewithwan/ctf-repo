@@ -1,0 +1,16 @@
+Memory capture excerpt (page-aligned)
+=====================================
+
+PAGE 0x8a0000
+00000000  25 26 59 23 3a 25 29 43 27 39 1b 22              |%&Y#:%)C'9."|
+00000010  1f 19 1c 0a de ad be ef 08 0f 1c 1a 0a 3d 0d 0d  |.............=..|
+
+PAGE 0x8a1000
+00000000  50 21 31 37 0d 59 2f 30 21 0d 57 34              |P!17.Y/0!.W4|
+00000010  11 0c 17 05 fa ce b0 0c 11 0c 17 05 07 13 0a 0b  |................|
+
+PAGE 0x8a2000
+00000000  35 23 3f 54 28 20 37 2f                          |5#?T( 7/|
+00000010  0c 1a 05 07 0c 0e 07 0f 06 1d 10 12 0a 0b 0d 1f  |................|
+
+captured note: the buffer was XORed before the pages were dumped.

@@ -1,0 +1,14 @@
+Stage 1:
+Identify the initial user, downloaded file, and LOLBin used for execution.
+
+Stage 2:
+Find the exact Defender-disabling command and the shadow-copy destruction command.
+
+Stage 3:
+Rebuild the campaign string from DNS TXT fragments and find the stage flag hidden near the memory key material.
+
+Stage 4:
+Use the campaign, device id, session, and nonce to decrypt the oxide loader config.
+
+Stage 5:
+Parse the binary relay stream, decompress the websocket payload, derive the final key, and recover the final flag.

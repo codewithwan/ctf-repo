@@ -1,0 +1,68 @@
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Auto-updated Homebrew!
+==> Updated Homebrew from 6.0.11 (d4832f0f38) to 6.0.12 (fb33e11256).
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+checksec: Security feature auditing for ELF binaries and Linux kernels
+near: Human-friendly console utility for interacting with NEAR Protocol
+==> New Casks
+cleanmymac-cli: Command-line interface for CleanMyMac
+libation: Audible audiobook manager and liberator
+neon-vision-editor: Native code and text editor
+prisma-access-browser: Secure enterprise browser with built-in threat and data protection
+
+You have 26 outdated formulae and 2 outdated casks installed.
+
+
+The 6.0.12 changelog can be found at:
+  https://github.com/Homebrew/brew/releases/tag/6.0.12
+==> Would install 1 formula:
+qemu
+==> Downloading https://ghcr.io/v2/homebrew/core/qemu/manifests/11.0.2
+==> Would install 5 dependencies for qemu:
+capstone
+dtc
+libslirp
+snappy
+vde
+==> Would upgrade 2 dependencies for qemu:
+ca-certificates
+p11-kit
+==> Fetching downloads for: qemu
+✔︎ Bottle ca-certificates (2026-07-16)
+✔︎ Bottle p11-kit (0.26.4)
+✔︎ Bottle Manifest dtc (1.8.1)
+✔︎ Bottle Manifest capstone (5.0.9)
+✔︎ Bottle Manifest snappy (1.2.2)
+✔︎ Bottle Manifest libslirp (4.9.3)
+✔︎ Bottle snappy (1.2.2)
+✔︎ Bottle dtc (1.8.1)
+✔︎ Bottle libslirp (4.9.3)
+✔︎ Bottle vde (2.3.3)
+✔︎ Bottle capstone (5.0.9)
+✔︎ Bottle Manifest vde (2.3.3)
+✔︎ Bottle qemu (11.0.2)
+==> Installing dependencies for qemu: capstone, dtc, libslirp, snappy and vde
+==> Installing qemu dependency: capstone
+==> Pouring capstone--5.0.9.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/capstone/5.0.9: 31 files, 23.4MB
+==> Installing qemu dependency: dtc
+==> Pouring dtc--1.8.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dtc/1.8.1: 19 files, 588.2KB
+==> Installing qemu dependency: libslirp
+==> Pouring libslirp--4.9.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libslirp/4.9.3: 13 files, 420.9KB
+==> Installing qemu dependency: snappy
+==> Pouring snappy--1.2.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/snappy/1.2.2: 19 files, 160.4KB
+==> Installing qemu dependency: vde
+==> Pouring vde--2.3.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/vde/2.3.3: 67 files, 1.2MB
+==> Installing qemu
+==> Pouring qemu--11.0.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/qemu/11.0.2: 169 files, 713.6MB
+==> Running `brew cleanup qemu`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).

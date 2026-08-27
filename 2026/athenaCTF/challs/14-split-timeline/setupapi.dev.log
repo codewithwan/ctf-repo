@@ -1,0 +1,146 @@
+[Device Install Log]
+     OS Version             = 10.0.26100
+     Service Pack           = 0.0
+     Suite                  = 0x0100
+     ProductType            = 1
+     Architecture           = amd64
+
+[BeginLog]
+
+[Boot Session: 2026/05/19 05:58:11.004]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_8087&PID_0032\5&38A1B1C4&0&14]
+>>>  Section start 2026/05/19 05:58:44.210
+      ump: Creating Install Process: DrvInst.exe 05:58:44.210
+      dvi: {Plug and Play Service: Device Install for USB\VID_8087&PID_0032\5&38A1B1C4&0&14}
+      ndv: Driver package name    : bth.inf
+      ndv: Driver package class   : Bluetooth
+      dvi: {Build Driver List} 05:58:44.210
+      dvi:      Device Description : Intel(R) Wireless Bluetooth(R)
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 05:58:44.210
+      dvi:      Selected driver installs from section [Bluetooth_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 05:58:44.438
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_2109&PID_2813\6&1F4D2A0C&0&2]
+>>>  Section start 2026/05/19 06:02:19.887
+      ump: Creating Install Process: DrvInst.exe 06:02:19.887
+      dvi: {Plug and Play Service: Device Install for USB\VID_2109&PID_2813\6&1F4D2A0C&0&2}
+      ndv: Driver package name    : usbhub3.inf
+      ndv: Driver package class   : USB
+      dvi: {Build Driver List} 06:02:19.887
+      dvi:      Device Description : Generic USB Hub
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 06:02:19.887
+      dvi:      Selected driver installs from section [USB_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 06:02:20.115
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_413C&PID_2513\7&2B4C9E11&0&1]
+>>>  Section start 2026/05/19 06:11:03.065
+      ump: Creating Install Process: DrvInst.exe 06:11:03.065
+      dvi: {Plug and Play Service: Device Install for USB\VID_413C&PID_2513\7&2B4C9E11&0&1}
+      ndv: Driver package name    : input.inf
+      ndv: Driver package class   : HIDClass
+      dvi: {Build Driver List} 06:11:03.065
+      dvi:      Device Description : Dell Universal Receiver
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 06:11:03.065
+      dvi:      Selected driver installs from section [HIDClass_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 06:11:03.293
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_0781&PID_5567\4C530001180529117094]
+>>>  Section start 2026/05/19 06:41:02.118
+      ump: Creating Install Process: DrvInst.exe 06:41:02.118
+      dvi: {Plug and Play Service: Device Install for USB\VID_0781&PID_5567\4C530001180529117094}
+      ndv: Driver package name    : disk.inf
+      ndv: Driver package class   : USBSTOR
+      dvi: {Build Driver List} 06:41:02.118
+      dvi:      Device Description : SanDisk Cruzer Blade USB Device
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 06:41:02.118
+      dvi:      Selected driver installs from section [USBSTOR_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 06:41:02.346
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_046D&PID_C534\5&3A2B1E7F&0&3]
+>>>  Section start 2026/05/19 06:55:41.332
+      ump: Creating Install Process: DrvInst.exe 06:55:41.332
+      dvi: {Plug and Play Service: Device Install for USB\VID_046D&PID_C534\5&3A2B1E7F&0&3}
+      ndv: Driver package name    : usb.inf
+      ndv: Driver package class   : USB
+      dvi: {Build Driver List} 06:55:41.332
+      dvi:      Device Description : USB Composite Device
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 06:55:41.332
+      dvi:      Selected driver installs from section [USB_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 06:55:41.560
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_0781&PID_5583\AA010129180916122757]
+>>>  Section start 2026/05/19 07:13:11.284
+      ump: Creating Install Process: DrvInst.exe 07:13:11.284
+      dvi: {Plug and Play Service: Device Install for USB\VID_0781&PID_5583\AA010129180916122757}
+      ndv: Driver package name    : disk.inf
+      ndv: Driver package class   : USBSTOR
+      dvi: {Build Driver List} 07:13:11.284
+      dvi:      Device Description : SanDisk Ultra Fit USB Device
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 07:13:11.284
+      dvi:      Selected driver installs from section [USBSTOR_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 07:13:11.512
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_046D&PID_C52B\17C013B3A044]
+>>>  Section start 2026/05/19 07:14:22.891
+      ump: Creating Install Process: DrvInst.exe 07:14:22.891
+      dvi: {Plug and Play Service: Device Install for USB\VID_046D&PID_C52B\17C013B3A044}
+      ndv: Driver package name    : hidusb.inf
+      ndv: Driver package class   : HIDClass
+      dvi: {Build Driver List} 07:14:22.891
+      dvi:      Device Description : Logitech USB Receiver
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 07:14:22.891
+      dvi:      Selected driver installs from section [HIDClass_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 07:14:23.119
+<<<  [Exit status: SUCCESS]
+
+>>>  [Device Install (Hardware initiated) - USB\VID_0951&PID_1666\E0D55EA5730CF0507A2C0E1B]
+>>>  Section start 2026/05/19 07:46:12.074
+      ump: Creating Install Process: DrvInst.exe 07:46:12.074
+      dvi: {Plug and Play Service: Device Install for USB\VID_0951&PID_1666\E0D55EA5730CF0507A2C0E1B}
+      ndv: Driver package name    : usbstor.inf
+      ndv: Driver package class   : USBSTOR
+      dvi: {Build Driver List} 07:46:12.074
+      dvi:      Device Description : USB Mass Storage Device
+      dvi: {Build Driver List - exit(0x00000000)}
+      dvi: {DIF_SELECTBESTCOMPATDRV} 07:46:12.074
+      dvi:      Selected driver installs from section [USBSTOR_Install]
+      dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)}
+      ndv: Installing device...
+      ndv: Device install status: 0x00000000
+<<<  Section end 2026/05/19 07:46:12.302
+<<<  [Exit status: SUCCESS]

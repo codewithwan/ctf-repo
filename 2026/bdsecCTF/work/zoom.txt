@@ -1,0 +1,14 @@
+Zoom Chat History Export
+========================
+Date: May 2024
+Account: arif.khan@firstbangla.com
+
+--- Meeting: Q1 Audit Review (2024-04-15) ---
+[09:05] Arif Khan: Good morning everyone
+[09:06] Salim Uddin: Morning. Shall we begin?
+[09:07] Arif Khan: The audit checklist is ready
+[09:10] IT Admin: System access logs are available
+
+--- Meeting: Treasury Team Sync (2024-05-02) ---
+[10:00] Arif Khan: Access window confirmed May 1-15
+[10:02] Salim Uddin: Proceed as planned

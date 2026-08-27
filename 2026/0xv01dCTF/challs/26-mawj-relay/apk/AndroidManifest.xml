@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="void.mobile.echopush">
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+  <application android:label="EchoPush" android:debuggable="false">
+    <receiver android:name=".PushReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="com.void.echo.PUSH"/>
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
